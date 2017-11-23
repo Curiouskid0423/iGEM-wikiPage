@@ -1,0 +1,5802 @@
+<html>
+	<head>
+		<title>iGEM Human Practice</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- BOOTSTRAP -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<!-- BOOTSTRAP -->
+ <style type='text/css'>
+      #top_title, #sideMenu{
+        display: none;
+      }
+
+      #content{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: #f3f4f4;}
+
+</style>
+
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('http://2017.igem.org/wiki/images/3/3b/MD-head-banner-1.jpeg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("http://2017.igem.org/wiki/images/3/3b/MD-head-banner-1.jpeg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("http://2017.igem.org/wiki/images/a/a3/MD-trianglify-back-0.png");
+    min-height: 200px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+
+
+
+
+<style>
+@charset "UTF-8";
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+/*
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	body {
+		-webkit-text-size-adjust: none;
+	}
+
+/* Box Model */
+
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/* Containers */
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.container.\31 25\25 {
+		width: 100%;
+		max-width: 100rem;
+		min-width: 80rem;
+	}
+
+	.container.\37 5\25 {
+		width: 60rem;
+	}
+
+	.container.\35 0\25 {
+		width: 40rem;
+	}
+
+	.container.\32 5\25 {
+		width: 20rem;
+	}
+
+	.container {
+		width: 80rem;
+	}
+
+	@media screen and (max-width: 1680px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 100rem;
+			min-width: 80rem;
+		}
+
+		.container.\37 5\25 {
+			width: 60rem;
+		}
+
+		.container.\35 0\25 {
+			width: 40rem;
+		}
+
+		.container.\32 5\25 {
+			width: 20rem;
+		}
+
+		.container {
+			width: 80rem;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 81.25rem;
+			min-width: 65rem;
+		}
+
+		.container.\37 5\25 {
+			width: 48.75rem;
+		}
+
+		.container.\35 0\25 {
+			width: 32.5rem;
+		}
+
+		.container.\32 5\25 {
+			width: 16.25rem;
+		}
+
+		.container {
+			width: 65rem;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 112.5%;
+			min-width: 90%;
+		}
+
+		.container.\37 5\25 {
+			width: 67.5%;
+		}
+
+		.container.\35 0\25 {
+			width: 45%;
+		}
+
+		.container.\32 5\25 {
+			width: 22.5%;
+		}
+
+		.container {
+			width: 90%;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 112.5%;
+			min-width: 90%;
+		}
+
+		.container.\37 5\25 {
+			width: 67.5%;
+		}
+
+		.container.\35 0\25 {
+			width: 45%;
+		}
+
+		.container.\32 5\25 {
+			width: 22.5%;
+		}
+
+		.container {
+			width: 90% !important;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 112.5%;
+			min-width: 90%;
+		}
+
+		.container.\37 5\25 {
+			width: 67.5%;
+		}
+
+		.container.\35 0\25 {
+			width: 45%;
+		}
+
+		.container.\32 5\25 {
+			width: 22.5%;
+		}
+
+		.container {
+			width: 90% !important;
+		}
+
+	}
+
+/* Grid */
+
+	.row {
+		border-bottom: solid 1px transparent;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.row > * {
+		float: left;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.row:after, .row:before {
+		content: '';
+		display: block;
+		clear: both;
+		height: 0;
+	}
+
+	.row.uniform > * > :first-child {
+		margin-top: 0;
+	}
+
+	.row.uniform > * > :last-child {
+		margin-bottom: 0;
+	}
+
+	.row.\30 \25 > * {
+		padding: 0 0 0 0rem;
+	}
+
+	.row.\30 \25 {
+		margin: 0 0 -1px 0rem;
+	}
+
+	.row.uniform.\30 \25 > * {
+		padding: 0rem 0 0 0rem;
+	}
+
+	.row.uniform.\30 \25 {
+		margin: 0rem 0 -1px 0rem;
+	}
+
+	.row > * {
+		padding: 0 0 0 2rem;
+	}
+
+	.row {
+		margin: 0 0 -1px -2rem;
+	}
+
+	.row.uniform > * {
+		padding: 2rem 0 0 2rem;
+	}
+
+	.row.uniform {
+		margin: -2rem 0 -1px -2rem;
+	}
+
+	.row.\32 00\25 > * {
+		padding: 0 0 0 4rem;
+	}
+
+	.row.\32 00\25 {
+		margin: 0 0 -1px -4rem;
+	}
+
+	.row.uniform.\32 00\25 > * {
+		padding: 4rem 0 0 4rem;
+	}
+
+	.row.uniform.\32 00\25 {
+		margin: -4rem 0 -1px -4rem;
+	}
+
+	.row.\31 50\25 > * {
+		padding: 0 0 0 3rem;
+	}
+
+	.row.\31 50\25 {
+		margin: 0 0 -1px -3rem;
+	}
+
+	.row.uniform.\31 50\25 > * {
+		padding: 3rem 0 0 3rem;
+	}
+
+	.row.uniform.\31 50\25 {
+		margin: -3rem 0 -1px -3rem;
+	}
+
+	.row.\35 0\25 > * {
+		padding: 0 0 0 1rem;
+	}
+
+	.row.\35 0\25 {
+		margin: 0 0 -1px -1rem;
+	}
+
+	.row.uniform.\35 0\25 > * {
+		padding: 1rem 0 0 1rem;
+	}
+
+	.row.uniform.\35 0\25 {
+		margin: -1rem 0 -1px -1rem;
+	}
+
+	.row.\32 5\25 > * {
+		padding: 0 0 0 0.5rem;
+	}
+
+	.row.\32 5\25 {
+		margin: 0 0 -1px -0.5rem;
+	}
+
+	.row.uniform.\32 5\25 > * {
+		padding: 0.5rem 0 0 0.5rem;
+	}
+
+	.row.uniform.\32 5\25 {
+		margin: -0.5rem 0 -1px -0.5rem;
+	}
+
+	.\31 2u, .\31 2u\24 {
+		width: 100%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\31 1u, .\31 1u\24 {
+		width: 91.6666666667%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\31 0u, .\31 0u\24 {
+		width: 83.3333333333%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\39 u, .\39 u\24 {
+		width: 75%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\38 u, .\38 u\24 {
+		width: 66.6666666667%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\37 u, .\37 u\24 {
+		width: 58.3333333333%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\36 u, .\36 u\24 {
+		width: 50%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\35 u, .\35 u\24 {
+		width: 41.6666666667%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\34 u, .\34 u\24 {
+		width: 33.3333333333%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\33 u, .\33 u\24 {
+		width: 25%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\32 u, .\32 u\24 {
+		width: 16.6666666667%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\31 u, .\31 u\24 {
+		width: 8.3333333333%;
+		clear: none;
+		margin-left: 0;
+	}
+
+	.\31 2u\24 + *,
+	.\31 1u\24 + *,
+	.\31 0u\24 + *,
+	.\39 u\24 + *,
+	.\38 u\24 + *,
+	.\37 u\24 + *,
+	.\36 u\24 + *,
+	.\35 u\24 + *,
+	.\34 u\24 + *,
+	.\33 u\24 + *,
+	.\32 u\24 + *,
+	.\31 u\24 + * {
+		clear: left;
+	}
+
+	.\-11u {
+		margin-left: 91.66667%;
+	}
+
+	.\-10u {
+		margin-left: 83.33333%;
+	}
+
+	.\-9u {
+		margin-left: 75%;
+	}
+
+	.\-8u {
+		margin-left: 66.66667%;
+	}
+
+	.\-7u {
+		margin-left: 58.33333%;
+	}
+
+	.\-6u {
+		margin-left: 50%;
+	}
+
+	.\-5u {
+		margin-left: 41.66667%;
+	}
+
+	.\-4u {
+		margin-left: 33.33333%;
+	}
+
+	.\-3u {
+		margin-left: 25%;
+	}
+
+	.\-2u {
+		margin-left: 16.66667%;
+	}
+
+	.\-1u {
+		margin-left: 8.33333%;
+	}
+
+	@media screen and (max-width: 1680px) {
+
+		.row > * {
+			padding: 0 0 0 2rem;
+		}
+
+		.row {
+			margin: 0 0 -1px -2rem;
+		}
+
+		.row.uniform > * {
+			padding: 2rem 0 0 2rem;
+		}
+
+		.row.uniform {
+			margin: -2rem 0 -1px -2rem;
+		}
+
+		.row.\32 00\25 > * {
+			padding: 0 0 0 4rem;
+		}
+
+		.row.\32 00\25 {
+			margin: 0 0 -1px -4rem;
+		}
+
+		.row.uniform.\32 00\25 > * {
+			padding: 4rem 0 0 4rem;
+		}
+
+		.row.uniform.\32 00\25 {
+			margin: -4rem 0 -1px -4rem;
+		}
+
+		.row.\31 50\25 > * {
+			padding: 0 0 0 3rem;
+		}
+
+		.row.\31 50\25 {
+			margin: 0 0 -1px -3rem;
+		}
+
+		.row.uniform.\31 50\25 > * {
+			padding: 3rem 0 0 3rem;
+		}
+
+		.row.uniform.\31 50\25 {
+			margin: -3rem 0 -1px -3rem;
+		}
+
+		.row.\35 0\25 > * {
+			padding: 0 0 0 1rem;
+		}
+
+		.row.\35 0\25 {
+			margin: 0 0 -1px -1rem;
+		}
+
+		.row.uniform.\35 0\25 > * {
+			padding: 1rem 0 0 1rem;
+		}
+
+		.row.uniform.\35 0\25 {
+			margin: -1rem 0 -1px -1rem;
+		}
+
+		.row.\32 5\25 > * {
+			padding: 0 0 0 0.5rem;
+		}
+
+		.row.\32 5\25 {
+			margin: 0 0 -1px -0.5rem;
+		}
+
+		.row.uniform.\32 5\25 > * {
+			padding: 0.5rem 0 0 0.5rem;
+		}
+
+		.row.uniform.\32 5\25 {
+			margin: -0.5rem 0 -1px -0.5rem;
+		}
+
+		.\31 2u\28xlarge\29, .\31 2u\24\28xlarge\29 {
+			width: 100%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 1u\28xlarge\29, .\31 1u\24\28xlarge\29 {
+			width: 91.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 0u\28xlarge\29, .\31 0u\24\28xlarge\29 {
+			width: 83.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\39 u\28xlarge\29, .\39 u\24\28xlarge\29 {
+			width: 75%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\38 u\28xlarge\29, .\38 u\24\28xlarge\29 {
+			width: 66.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\37 u\28xlarge\29, .\37 u\24\28xlarge\29 {
+			width: 58.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\36 u\28xlarge\29, .\36 u\24\28xlarge\29 {
+			width: 50%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\35 u\28xlarge\29, .\35 u\24\28xlarge\29 {
+			width: 41.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\34 u\28xlarge\29, .\34 u\24\28xlarge\29 {
+			width: 33.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\33 u\28xlarge\29, .\33 u\24\28xlarge\29 {
+			width: 25%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\32 u\28xlarge\29, .\32 u\24\28xlarge\29 {
+			width: 16.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 u\28xlarge\29, .\31 u\24\28xlarge\29 {
+			width: 8.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 2u\24\28xlarge\29 + *,
+		.\31 1u\24\28xlarge\29 + *,
+		.\31 0u\24\28xlarge\29 + *,
+		.\39 u\24\28xlarge\29 + *,
+		.\38 u\24\28xlarge\29 + *,
+		.\37 u\24\28xlarge\29 + *,
+		.\36 u\24\28xlarge\29 + *,
+		.\35 u\24\28xlarge\29 + *,
+		.\34 u\24\28xlarge\29 + *,
+		.\33 u\24\28xlarge\29 + *,
+		.\32 u\24\28xlarge\29 + *,
+		.\31 u\24\28xlarge\29 + * {
+			clear: left;
+		}
+
+		.\-11u\28xlarge\29 {
+			margin-left: 91.66667%;
+		}
+
+		.\-10u\28xlarge\29 {
+			margin-left: 83.33333%;
+		}
+
+		.\-9u\28xlarge\29 {
+			margin-left: 75%;
+		}
+
+		.\-8u\28xlarge\29 {
+			margin-left: 66.66667%;
+		}
+
+		.\-7u\28xlarge\29 {
+			margin-left: 58.33333%;
+		}
+
+		.\-6u\28xlarge\29 {
+			margin-left: 50%;
+		}
+
+		.\-5u\28xlarge\29 {
+			margin-left: 41.66667%;
+		}
+
+		.\-4u\28xlarge\29 {
+			margin-left: 33.33333%;
+		}
+
+		.\-3u\28xlarge\29 {
+			margin-left: 25%;
+		}
+
+		.\-2u\28xlarge\29 {
+			margin-left: 16.66667%;
+		}
+
+		.\-1u\28xlarge\29 {
+			margin-left: 8.33333%;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.row > * {
+			padding: 0 0 0 1.5rem;
+		}
+
+		.row {
+			margin: 0 0 -1px -1.5rem;
+		}
+
+		.row.uniform > * {
+			padding: 1.5rem 0 0 1.5rem;
+		}
+
+		.row.uniform {
+			margin: -1.5rem 0 -1px -1.5rem;
+		}
+
+		.row.\32 00\25 > * {
+			padding: 0 0 0 3rem;
+		}
+
+		.row.\32 00\25 {
+			margin: 0 0 -1px -3rem;
+		}
+
+		.row.uniform.\32 00\25 > * {
+			padding: 3rem 0 0 3rem;
+		}
+
+		.row.uniform.\32 00\25 {
+			margin: -3rem 0 -1px -3rem;
+		}
+
+		.row.\31 50\25 > * {
+			padding: 0 0 0 2.25rem;
+		}
+
+		.row.\31 50\25 {
+			margin: 0 0 -1px -2.25rem;
+		}
+
+		.row.uniform.\31 50\25 > * {
+			padding: 2.25rem 0 0 2.25rem;
+		}
+
+		.row.uniform.\31 50\25 {
+			margin: -2.25rem 0 -1px -2.25rem;
+		}
+
+		.row.\35 0\25 > * {
+			padding: 0 0 0 0.75rem;
+		}
+
+		.row.\35 0\25 {
+			margin: 0 0 -1px -0.75rem;
+		}
+
+		.row.uniform.\35 0\25 > * {
+			padding: 0.75rem 0 0 0.75rem;
+		}
+
+		.row.uniform.\35 0\25 {
+			margin: -0.75rem 0 -1px -0.75rem;
+		}
+
+		.row.\32 5\25 > * {
+			padding: 0 0 0 0.375rem;
+		}
+
+		.row.\32 5\25 {
+			margin: 0 0 -1px -0.375rem;
+		}
+
+		.row.uniform.\32 5\25 > * {
+			padding: 0.375rem 0 0 0.375rem;
+		}
+
+		.row.uniform.\32 5\25 {
+			margin: -0.375rem 0 -1px -0.375rem;
+		}
+
+		.\31 2u\28large\29, .\31 2u\24\28large\29 {
+			width: 100%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 1u\28large\29, .\31 1u\24\28large\29 {
+			width: 91.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 0u\28large\29, .\31 0u\24\28large\29 {
+			width: 83.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\39 u\28large\29, .\39 u\24\28large\29 {
+			width: 75%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\38 u\28large\29, .\38 u\24\28large\29 {
+			width: 66.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\37 u\28large\29, .\37 u\24\28large\29 {
+			width: 58.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\36 u\28large\29, .\36 u\24\28large\29 {
+			width: 50%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\35 u\28large\29, .\35 u\24\28large\29 {
+			width: 41.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\34 u\28large\29, .\34 u\24\28large\29 {
+			width: 33.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\33 u\28large\29, .\33 u\24\28large\29 {
+			width: 25%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\32 u\28large\29, .\32 u\24\28large\29 {
+			width: 16.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 u\28large\29, .\31 u\24\28large\29 {
+			width: 8.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 2u\24\28large\29 + *,
+		.\31 1u\24\28large\29 + *,
+		.\31 0u\24\28large\29 + *,
+		.\39 u\24\28large\29 + *,
+		.\38 u\24\28large\29 + *,
+		.\37 u\24\28large\29 + *,
+		.\36 u\24\28large\29 + *,
+		.\35 u\24\28large\29 + *,
+		.\34 u\24\28large\29 + *,
+		.\33 u\24\28large\29 + *,
+		.\32 u\24\28large\29 + *,
+		.\31 u\24\28large\29 + * {
+			clear: left;
+		}
+
+		.\-11u\28large\29 {
+			margin-left: 91.66667%;
+		}
+
+		.\-10u\28large\29 {
+			margin-left: 83.33333%;
+		}
+
+		.\-9u\28large\29 {
+			margin-left: 75%;
+		}
+
+		.\-8u\28large\29 {
+			margin-left: 66.66667%;
+		}
+
+		.\-7u\28large\29 {
+			margin-left: 58.33333%;
+		}
+
+		.\-6u\28large\29 {
+			margin-left: 50%;
+		}
+
+		.\-5u\28large\29 {
+			margin-left: 41.66667%;
+		}
+
+		.\-4u\28large\29 {
+			margin-left: 33.33333%;
+		}
+
+		.\-3u\28large\29 {
+			margin-left: 25%;
+		}
+
+		.\-2u\28large\29 {
+			margin-left: 16.66667%;
+		}
+
+		.\-1u\28large\29 {
+			margin-left: 8.33333%;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.row > * {
+			padding: 0 0 0 1.5rem;
+		}
+
+		.row {
+			margin: 0 0 -1px -1.5rem;
+		}
+
+		.row.uniform > * {
+			padding: 1.5rem 0 0 1.5rem;
+		}
+
+		.row.uniform {
+			margin: -1.5rem 0 -1px -1.5rem;
+		}
+
+		.row.\32 00\25 > * {
+			padding: 0 0 0 3rem;
+		}
+
+		.row.\32 00\25 {
+			margin: 0 0 -1px -3rem;
+		}
+
+		.row.uniform.\32 00\25 > * {
+			padding: 3rem 0 0 3rem;
+		}
+
+		.row.uniform.\32 00\25 {
+			margin: -3rem 0 -1px -3rem;
+		}
+
+		.row.\31 50\25 > * {
+			padding: 0 0 0 2.25rem;
+		}
+
+		.row.\31 50\25 {
+			margin: 0 0 -1px -2.25rem;
+		}
+
+		.row.uniform.\31 50\25 > * {
+			padding: 2.25rem 0 0 2.25rem;
+		}
+
+		.row.uniform.\31 50\25 {
+			margin: -2.25rem 0 -1px -2.25rem;
+		}
+
+		.row.\35 0\25 > * {
+			padding: 0 0 0 0.75rem;
+		}
+
+		.row.\35 0\25 {
+			margin: 0 0 -1px -0.75rem;
+		}
+
+		.row.uniform.\35 0\25 > * {
+			padding: 0.75rem 0 0 0.75rem;
+		}
+
+		.row.uniform.\35 0\25 {
+			margin: -0.75rem 0 -1px -0.75rem;
+		}
+
+		.row.\32 5\25 > * {
+			padding: 0 0 0 0.375rem;
+		}
+
+		.row.\32 5\25 {
+			margin: 0 0 -1px -0.375rem;
+		}
+
+		.row.uniform.\32 5\25 > * {
+			padding: 0.375rem 0 0 0.375rem;
+		}
+
+		.row.uniform.\32 5\25 {
+			margin: -0.375rem 0 -1px -0.375rem;
+		}
+
+		.\31 2u\28medium\29, .\31 2u\24\28medium\29 {
+			width: 100%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 1u\28medium\29, .\31 1u\24\28medium\29 {
+			width: 91.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 0u\28medium\29, .\31 0u\24\28medium\29 {
+			width: 83.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\39 u\28medium\29, .\39 u\24\28medium\29 {
+			width: 75%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\38 u\28medium\29, .\38 u\24\28medium\29 {
+			width: 66.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\37 u\28medium\29, .\37 u\24\28medium\29 {
+			width: 58.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\36 u\28medium\29, .\36 u\24\28medium\29 {
+			width: 50%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\35 u\28medium\29, .\35 u\24\28medium\29 {
+			width: 41.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\34 u\28medium\29, .\34 u\24\28medium\29 {
+			width: 33.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\33 u\28medium\29, .\33 u\24\28medium\29 {
+			width: 25%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\32 u\28medium\29, .\32 u\24\28medium\29 {
+			width: 16.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 u\28medium\29, .\31 u\24\28medium\29 {
+			width: 8.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 2u\24\28medium\29 + *,
+		.\31 1u\24\28medium\29 + *,
+		.\31 0u\24\28medium\29 + *,
+		.\39 u\24\28medium\29 + *,
+		.\38 u\24\28medium\29 + *,
+		.\37 u\24\28medium\29 + *,
+		.\36 u\24\28medium\29 + *,
+		.\35 u\24\28medium\29 + *,
+		.\34 u\24\28medium\29 + *,
+		.\33 u\24\28medium\29 + *,
+		.\32 u\24\28medium\29 + *,
+		.\31 u\24\28medium\29 + * {
+			clear: left;
+		}
+
+		.\-11u\28medium\29 {
+			margin-left: 91.66667%;
+		}
+
+		.\-10u\28medium\29 {
+			margin-left: 83.33333%;
+		}
+
+		.\-9u\28medium\29 {
+			margin-left: 75%;
+		}
+
+		.\-8u\28medium\29 {
+			margin-left: 66.66667%;
+		}
+
+		.\-7u\28medium\29 {
+			margin-left: 58.33333%;
+		}
+
+		.\-6u\28medium\29 {
+			margin-left: 50%;
+		}
+
+		.\-5u\28medium\29 {
+			margin-left: 41.66667%;
+		}
+
+		.\-4u\28medium\29 {
+			margin-left: 33.33333%;
+		}
+
+		.\-3u\28medium\29 {
+			margin-left: 25%;
+		}
+
+		.\-2u\28medium\29 {
+			margin-left: 16.66667%;
+		}
+
+		.\-1u\28medium\29 {
+			margin-left: 8.33333%;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.row > * {
+			padding: 0 0 0 1.25rem;
+		}
+
+		.row {
+			margin: 0 0 -1px -1.25rem;
+		}
+
+		.row.uniform > * {
+			padding: 1.25rem 0 0 1.25rem;
+		}
+
+		.row.uniform {
+			margin: -1.25rem 0 -1px -1.25rem;
+		}
+
+		.row.\32 00\25 > * {
+			padding: 0 0 0 2.5rem;
+		}
+
+		.row.\32 00\25 {
+			margin: 0 0 -1px -2.5rem;
+		}
+
+		.row.uniform.\32 00\25 > * {
+			padding: 2.5rem 0 0 2.5rem;
+		}
+
+		.row.uniform.\32 00\25 {
+			margin: -2.5rem 0 -1px -2.5rem;
+		}
+
+		.row.\31 50\25 > * {
+			padding: 0 0 0 1.875rem;
+		}
+
+		.row.\31 50\25 {
+			margin: 0 0 -1px -1.875rem;
+		}
+
+		.row.uniform.\31 50\25 > * {
+			padding: 1.875rem 0 0 1.875rem;
+		}
+
+		.row.uniform.\31 50\25 {
+			margin: -1.875rem 0 -1px -1.875rem;
+		}
+
+		.row.\35 0\25 > * {
+			padding: 0 0 0 0.625rem;
+		}
+
+		.row.\35 0\25 {
+			margin: 0 0 -1px -0.625rem;
+		}
+
+		.row.uniform.\35 0\25 > * {
+			padding: 0.625rem 0 0 0.625rem;
+		}
+
+		.row.uniform.\35 0\25 {
+			margin: -0.625rem 0 -1px -0.625rem;
+		}
+
+		.row.\32 5\25 > * {
+			padding: 0 0 0 0.3125rem;
+		}
+
+		.row.\32 5\25 {
+			margin: 0 0 -1px -0.3125rem;
+		}
+
+		.row.uniform.\32 5\25 > * {
+			padding: 0.3125rem 0 0 0.3125rem;
+		}
+
+		.row.uniform.\32 5\25 {
+			margin: -0.3125rem 0 -1px -0.3125rem;
+		}
+
+		.\31 2u\28small\29, .\31 2u\24\28small\29 {
+			width: 100%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 1u\28small\29, .\31 1u\24\28small\29 {
+			width: 91.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 0u\28small\29, .\31 0u\24\28small\29 {
+			width: 83.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\39 u\28small\29, .\39 u\24\28small\29 {
+			width: 75%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\38 u\28small\29, .\38 u\24\28small\29 {
+			width: 66.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\37 u\28small\29, .\37 u\24\28small\29 {
+			width: 58.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\36 u\28small\29, .\36 u\24\28small\29 {
+			width: 50%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\35 u\28small\29, .\35 u\24\28small\29 {
+			width: 41.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\34 u\28small\29, .\34 u\24\28small\29 {
+			width: 33.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\33 u\28small\29, .\33 u\24\28small\29 {
+			width: 25%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\32 u\28small\29, .\32 u\24\28small\29 {
+			width: 16.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 u\28small\29, .\31 u\24\28small\29 {
+			width: 8.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 2u\24\28small\29 + *,
+		.\31 1u\24\28small\29 + *,
+		.\31 0u\24\28small\29 + *,
+		.\39 u\24\28small\29 + *,
+		.\38 u\24\28small\29 + *,
+		.\37 u\24\28small\29 + *,
+		.\36 u\24\28small\29 + *,
+		.\35 u\24\28small\29 + *,
+		.\34 u\24\28small\29 + *,
+		.\33 u\24\28small\29 + *,
+		.\32 u\24\28small\29 + *,
+		.\31 u\24\28small\29 + * {
+			clear: left;
+		}
+
+		.\-11u\28small\29 {
+			margin-left: 91.66667%;
+		}
+
+		.\-10u\28small\29 {
+			margin-left: 83.33333%;
+		}
+
+		.\-9u\28small\29 {
+			margin-left: 75%;
+		}
+
+		.\-8u\28small\29 {
+			margin-left: 66.66667%;
+		}
+
+		.\-7u\28small\29 {
+			margin-left: 58.33333%;
+		}
+
+		.\-6u\28small\29 {
+			margin-left: 50%;
+		}
+
+		.\-5u\28small\29 {
+			margin-left: 41.66667%;
+		}
+
+		.\-4u\28small\29 {
+			margin-left: 33.33333%;
+		}
+
+		.\-3u\28small\29 {
+			margin-left: 25%;
+		}
+
+		.\-2u\28small\29 {
+			margin-left: 16.66667%;
+		}
+
+		.\-1u\28small\29 {
+			margin-left: 8.33333%;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.row > * {
+			padding: 0 0 0 1.25rem;
+		}
+
+		.row {
+			margin: 0 0 -1px -1.25rem;
+		}
+
+		.row.uniform > * {
+			padding: 1.25rem 0 0 1.25rem;
+		}
+
+		.row.uniform {
+			margin: -1.25rem 0 -1px -1.25rem;
+		}
+
+		.row.\32 00\25 > * {
+			padding: 0 0 0 2.5rem;
+		}
+
+		.row.\32 00\25 {
+			margin: 0 0 -1px -2.5rem;
+		}
+
+		.row.uniform.\32 00\25 > * {
+			padding: 2.5rem 0 0 2.5rem;
+		}
+
+		.row.uniform.\32 00\25 {
+			margin: -2.5rem 0 -1px -2.5rem;
+		}
+
+		.row.\31 50\25 > * {
+			padding: 0 0 0 1.875rem;
+		}
+
+		.row.\31 50\25 {
+			margin: 0 0 -1px -1.875rem;
+		}
+
+		.row.uniform.\31 50\25 > * {
+			padding: 1.875rem 0 0 1.875rem;
+		}
+
+		.row.uniform.\31 50\25 {
+			margin: -1.875rem 0 -1px -1.875rem;
+		}
+
+		.row.\35 0\25 > * {
+			padding: 0 0 0 0.625rem;
+		}
+
+		.row.\35 0\25 {
+			margin: 0 0 -1px -0.625rem;
+		}
+
+		.row.uniform.\35 0\25 > * {
+			padding: 0.625rem 0 0 0.625rem;
+		}
+
+		.row.uniform.\35 0\25 {
+			margin: -0.625rem 0 -1px -0.625rem;
+		}
+
+		.row.\32 5\25 > * {
+			padding: 0 0 0 0.3125rem;
+		}
+
+		.row.\32 5\25 {
+			margin: 0 0 -1px -0.3125rem;
+		}
+
+		.row.uniform.\32 5\25 > * {
+			padding: 0.3125rem 0 0 0.3125rem;
+		}
+
+		.row.uniform.\32 5\25 {
+			margin: -0.3125rem 0 -1px -0.3125rem;
+		}
+
+		.\31 2u\28xsmall\29, .\31 2u\24\28xsmall\29 {
+			width: 100%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 1u\28xsmall\29, .\31 1u\24\28xsmall\29 {
+			width: 91.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 0u\28xsmall\29, .\31 0u\24\28xsmall\29 {
+			width: 83.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\39 u\28xsmall\29, .\39 u\24\28xsmall\29 {
+			width: 75%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\38 u\28xsmall\29, .\38 u\24\28xsmall\29 {
+			width: 66.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\37 u\28xsmall\29, .\37 u\24\28xsmall\29 {
+			width: 58.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\36 u\28xsmall\29, .\36 u\24\28xsmall\29 {
+			width: 50%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\35 u\28xsmall\29, .\35 u\24\28xsmall\29 {
+			width: 41.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\34 u\28xsmall\29, .\34 u\24\28xsmall\29 {
+			width: 33.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\33 u\28xsmall\29, .\33 u\24\28xsmall\29 {
+			width: 25%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\32 u\28xsmall\29, .\32 u\24\28xsmall\29 {
+			width: 16.6666666667%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 u\28xsmall\29, .\31 u\24\28xsmall\29 {
+			width: 8.3333333333%;
+			clear: none;
+			margin-left: 0;
+		}
+
+		.\31 2u\24\28xsmall\29 + *,
+		.\31 1u\24\28xsmall\29 + *,
+		.\31 0u\24\28xsmall\29 + *,
+		.\39 u\24\28xsmall\29 + *,
+		.\38 u\24\28xsmall\29 + *,
+		.\37 u\24\28xsmall\29 + *,
+		.\36 u\24\28xsmall\29 + *,
+		.\35 u\24\28xsmall\29 + *,
+		.\34 u\24\28xsmall\29 + *,
+		.\33 u\24\28xsmall\29 + *,
+		.\32 u\24\28xsmall\29 + *,
+		.\31 u\24\28xsmall\29 + * {
+			clear: left;
+		}
+
+		.\-11u\28xsmall\29 {
+			margin-left: 91.66667%;
+		}
+
+		.\-10u\28xsmall\29 {
+			margin-left: 83.33333%;
+		}
+
+		.\-9u\28xsmall\29 {
+			margin-left: 75%;
+		}
+
+		.\-8u\28xsmall\29 {
+			margin-left: 66.66667%;
+		}
+
+		.\-7u\28xsmall\29 {
+			margin-left: 58.33333%;
+		}
+
+		.\-6u\28xsmall\29 {
+			margin-left: 50%;
+		}
+
+		.\-5u\28xsmall\29 {
+			margin-left: 41.66667%;
+		}
+
+		.\-4u\28xsmall\29 {
+			margin-left: 33.33333%;
+		}
+
+		.\-3u\28xsmall\29 {
+			margin-left: 25%;
+		}
+
+		.\-2u\28xsmall\29 {
+			margin-left: 16.66667%;
+		}
+
+		.\-1u\28xsmall\29 {
+			margin-left: 8.33333%;
+		}
+
+	}
+
+/* Basic */
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+	body {
+		-ms-overflow-style: scrollbar;
+	}
+
+	@media screen and (max-width: 480px) {
+
+		html, body {
+			min-width: 320px;
+		}
+
+	}
+
+	body {
+		background: #fff;
+	}
+
+		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
+
+/* Type */
+
+	html {
+		font-size: 13pt;
+	}
+
+		@media screen and (max-width: 1680px) {
+
+			html {
+				font-size: 11pt;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			html {
+				font-size: 11pt;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			html {
+				font-size: 12pt;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			html {
+				font-size: 12pt;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			html {
+				font-size: 12pt;
+			}
+
+		}
+
+	body {
+		background-color: #fff;
+		color: #444;
+	}
+
+	body, input, select, textarea {
+		font-family: "Poppins", sans-serif;
+		font-weight: 300;
+		font-size: 1rem;
+		line-height: 1.65;
+	}
+
+	a {
+		text-decoration: underline;
+	}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+	strong, b {
+		font-weight: 600;
+	}
+
+	em, i {
+		font-style: italic;
+	}
+
+	p {
+		margin: 0 0 2rem 0;
+	}
+
+		p.special {
+			text-transform: uppercase;
+			font-size: .75rem;
+			font-weight: 300;
+			margin: 0 0 .5rem 0;
+			padding: 0 0 1rem 0;
+			letter-spacing: .25rem;
+		}
+
+			p.special:after {
+				content: '';
+				position: absolute;
+				margin: auto;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width: 50%;
+				height: 1px;
+				background-color: rgba(0, 0, 0, 0.125);
+			}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 300;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+	h2 {
+		font-size: 1.75rem;
+	}
+
+	h3 {
+		font-size: 1.35rem;
+	}
+
+	h4 {
+		font-size: 1.1rem;
+	}
+
+	h5 {
+		font-size: 0.9rem;
+	}
+
+	h6 {
+		font-size: 0.7rem;
+	}
+
+	sub {
+		font-size: 0.8rem;
+		position: relative;
+		top: 0.5rem;
+	}
+
+	sup {
+		font-size: 0.8rem;
+		position: relative;
+		top: -0.5rem;
+	}
+
+	blockquote {
+		border-left: solid 4px;
+		font-style: italic;
+		margin: 0 0 2rem 0;
+		padding: 0.5rem 0 0.5rem 2rem;
+	}
+
+	code {
+		border-radius: 2px;
+		border: solid 1px;
+		font-family: "Courier New", monospace;
+		font-size: 0.9rem;
+		margin: 0 0.25rem;
+		padding: 0.25rem 0.65rem;
+	}
+
+	pre {
+		-webkit-overflow-scrolling: touch;
+		font-family: "Courier New", monospace;
+		font-size: 0.9rem;
+		margin: 0 0 2rem 0;
+	}
+
+		pre code {
+			display: block;
+			line-height: 1.75;
+			padding: 1rem 1.5rem;
+			overflow-x: auto;
+		}
+
+	hr {
+		border: 0;
+		border-bottom: solid 1px;
+		margin: 2rem 0;
+	}
+
+		hr.major {
+			margin: 3rem 0;
+		}
+
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
+
+	input, select, textarea {
+		color: #555;
+	}
+
+	a {
+		color: #8a4680;
+	}
+
+	strong, b {
+		color: #555;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #555;
+	}
+
+	blockquote {
+		border-left-color: rgba(144, 144, 144, 0.25);
+	}
+
+	code {
+		background: rgba(144, 144, 144, 0.075);
+		border-color: rgba(144, 144, 144, 0.25);
+	}
+
+	hr {
+		border-bottom-color: rgba(144, 144, 144, 0.25);
+	}
+
+/* Box */
+
+	.box {
+		margin-bottom: 2rem;
+		background: #FFF;
+	}
+
+		.box .image.fit {
+			margin: 0;
+			border-radius: 0;
+		}
+
+			.box .image.fit img {
+				border-radius: 0;
+			}
+
+		.box header h2 {
+			margin-bottom: 2rem;
+		}
+
+		.box header p {
+			text-transform: uppercase;
+			font-size: .75rem;
+			font-weight: 300;
+			margin: 0 0 .25rem 0;
+			padding: 0 0 .75rem 0;
+			letter-spacing: .25rem;
+		}
+
+			.box header p:after {
+				content: '';
+				position: absolute;
+				margin: auto;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width: 50%;
+				height: 1px;
+				background-color: rgba(0, 0, 0, 0.125);
+			}
+
+		.box .content {
+			padding: 3rem;
+		}
+
+		.box > :last-child,
+		.box > :last-child > :last-child,
+		.box > :last-child > :last-child > :last-child {
+			margin-bottom: 0;
+		}
+
+		.box.alt {
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.box .content {
+				padding: 2rem;
+			}
+
+		}
+
+	.box {
+		border-color: rgba(144, 144, 144, 0.25);
+	}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 2px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 300;
+		height: 2.85rem;
+		line-height: 2.95rem;
+		padding: 0 1.5rem;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+
+		input[type="submit"].icon,
+		input[type="reset"].icon,
+		input[type="button"].icon,
+		button.icon,
+		.button.icon {
+			padding-left: 1.35rem;
+		}
+
+			input[type="submit"].icon:before,
+			input[type="reset"].icon:before,
+			input[type="button"].icon:before,
+			button.icon:before,
+			.button.icon:before {
+				margin-right: 0.5rem;
+			}
+
+		input[type="submit"].fit,
+		input[type="reset"].fit,
+		input[type="button"].fit,
+		button.fit,
+		.button.fit {
+			display: block;
+			margin: 0 0 1rem 0;
+			width: 100%;
+		}
+
+		input[type="submit"].small,
+		input[type="reset"].small,
+		input[type="button"].small,
+		button.small,
+		.button.small {
+			font-size: 0.8rem;
+		}
+
+		input[type="submit"].big,
+		input[type="reset"].big,
+		input[type="button"].big,
+		button.big,
+		.button.big {
+			font-size: 1.35rem;
+		}
+
+		input[type="submit"].disabled, input[type="submit"]:disabled,
+		input[type="reset"].disabled,
+		input[type="reset"]:disabled,
+		input[type="button"].disabled,
+		input[type="button"]:disabled,
+		button.disabled,
+		button:disabled,
+		.button.disabled,
+		.button:disabled {
+			-moz-pointer-events: none;
+			-webkit-pointer-events: none;
+			-ms-pointer-events: none;
+			pointer-events: none;
+			opacity: 0.25;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button"],
+			button,
+			.button {
+				padding: 0;
+				width: 100%;
+			}
+
+		}
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		background-color: #f2f2f2;
+		color: #000 !important;
+	}
+
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		button:hover,
+		.button:hover {
+			background-color: white;
+		}
+
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		input[type="button"]:active,
+		button:active,
+		.button:active {
+			background-color: #e5e5e5;
+		}
+
+		input[type="submit"].alt,
+		input[type="reset"].alt,
+		input[type="button"].alt,
+		button.alt,
+		.button.alt {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+			color: #555 !important;
+		}
+
+			input[type="submit"].alt:hover,
+			input[type="reset"].alt:hover,
+			input[type="button"].alt:hover,
+			button.alt:hover,
+			.button.alt:hover {
+				background-color: rgba(144, 144, 144, 0.075);
+			}
+
+			input[type="submit"].alt:active,
+			input[type="reset"].alt:active,
+			input[type="button"].alt:active,
+			button.alt:active,
+			.button.alt:active {
+				background-color: rgba(144, 144, 144, 0.2);
+			}
+
+			input[type="submit"].alt.icon:before,
+			input[type="reset"].alt.icon:before,
+			input[type="button"].alt.icon:before,
+			button.alt.icon:before,
+			.button.alt.icon:before {
+				color: #bbb;
+			}
+
+		input[type="submit"].special,
+		input[type="reset"].special,
+		input[type="button"].special,
+		button.special,
+		.button.special {
+			background-color: #8a4680;
+			color: #ffffff !important;
+		}
+
+			input[type="submit"].special:hover,
+			input[type="reset"].special:hover,
+			input[type="button"].special:hover,
+			button.special:hover,
+			.button.special:hover {
+				background-color: #9b4f90;
+			}
+
+			input[type="submit"].special:active,
+			input[type="reset"].special:active,
+			input[type="button"].special:active,
+			button.special:active,
+			.button.special:active {
+				background-color: #793d70;
+			}
+
+/* Form */
+
+	form {
+		margin: 0 0 2rem 0;
+	}
+
+	label {
+		display: block;
+		font-size: 0.9rem;
+		font-weight: 700;
+		margin: 0 0 1rem 0;
+	}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		border-radius: 2px;
+		border: none;
+		border: solid 1px;
+		color: inherit;
+		display: block;
+		outline: 0;
+		padding: 0 1rem;
+		text-decoration: none;
+		width: 100%;
+	}
+
+		input[type="text"]:invalid,
+		input[type="password"]:invalid,
+		input[type="email"]:invalid,
+		select:invalid,
+		textarea:invalid {
+			box-shadow: none;
+		}
+
+	.select-wrapper {
+		text-decoration: none;
+		display: block;
+		position: relative;
+	}
+
+		.select-wrapper:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.select-wrapper:before {
+			content: '\f078';
+			display: block;
+			height: 2.75rem;
+			line-height: 2.75rem;
+			pointer-events: none;
+			position: absolute;
+			right: 0;
+			text-align: center;
+			top: 0;
+			width: 2.75rem;
+		}
+
+		.select-wrapper select::-ms-expand {
+			display: none;
+		}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select {
+		height: 2.75rem;
+	}
+
+	textarea {
+		padding: 0.75rem 1rem;
+	}
+
+	input[type="checkbox"],
+	input[type="radio"] {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		display: block;
+		float: left;
+		margin-right: -2rem;
+		opacity: 0;
+		width: 1rem;
+		z-index: -1;
+	}
+
+		input[type="checkbox"] + label,
+		input[type="radio"] + label {
+			text-decoration: none;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 1rem;
+			font-weight: 400;
+			padding-left: 2.4rem;
+			padding-right: 0.75rem;
+			position: relative;
+		}
+
+			input[type="checkbox"] + label:before,
+			input[type="radio"] + label:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
+			}
+
+			input[type="checkbox"] + label:before,
+			input[type="radio"] + label:before {
+				border-radius: 2px;
+				border: solid 1px;
+				content: '';
+				display: inline-block;
+				height: 1.65rem;
+				left: 0;
+				line-height: 1.58125rem;
+				position: absolute;
+				text-align: center;
+				top: 0;
+				width: 1.65rem;
+			}
+
+		input[type="checkbox"]:checked + label:before,
+		input[type="radio"]:checked + label:before {
+			content: '\f00c';
+		}
+
+	input[type="checkbox"] + label:before {
+		border-radius: 2px;
+	}
+
+	input[type="radio"] + label:before {
+		border-radius: 100%;
+	}
+
+	::-webkit-input-placeholder {
+		opacity: 1.0;
+	}
+
+	:-moz-placeholder {
+		opacity: 1.0;
+	}
+
+	::-moz-placeholder {
+		opacity: 1.0;
+	}
+
+	:-ms-input-placeholder {
+		opacity: 1.0;
+	}
+
+	.formerize-placeholder {
+		opacity: 1.0;
+	}
+
+	label {
+		color: #555;
+	}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+		background: rgba(144, 144, 144, 0.075);
+		border-color: rgba(144, 144, 144, 0.25);
+	}
+
+		input[type="text"]:focus,
+		input[type="password"]:focus,
+		input[type="email"]:focus,
+		select:focus,
+		textarea:focus {
+			border-color: #8a4680;
+			box-shadow: 0 0 0 1px #8a4680;
+		}
+
+	.select-wrapper:before {
+		color: rgba(144, 144, 144, 0.25);
+	}
+
+	input[type="checkbox"] + label,
+	input[type="radio"] + label {
+		color: #444;
+	}
+
+		input[type="checkbox"] + label:before,
+		input[type="radio"] + label:before {
+			background: rgba(144, 144, 144, 0.075);
+			border-color: rgba(144, 144, 144, 0.25);
+		}
+
+	input[type="checkbox"]:checked + label:before,
+	input[type="radio"]:checked + label:before {
+		background-color: #8a4680;
+		border-color: #8a4680;
+		color: #ffffff;
+	}
+
+	input[type="checkbox"]:focus + label:before,
+	input[type="radio"]:focus + label:before {
+		border-color: #8a4680;
+		box-shadow: 0 0 0 1px #8a4680;
+	}
+
+	::-webkit-input-placeholder {
+		color: #bbb !important;
+	}
+
+	:-moz-placeholder {
+		color: #bbb !important;
+	}
+
+	::-moz-placeholder {
+		color: #bbb !important;
+	}
+
+	:-ms-input-placeholder {
+		color: #bbb !important;
+	}
+
+	.formerize-placeholder {
+		color: #bbb !important;
+	}
+
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+/* Image */
+
+	.image {
+		border-radius: 2px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image img {
+			border-radius: 2px;
+			display: block;
+		}
+
+		.image.left, .image.right {
+			max-width: 40%;
+		}
+
+			.image.left img, .image.right img {
+				width: 100%;
+			}
+
+		.image.left {
+			float: left;
+			margin: 0 1.5rem 1rem 0;
+			top: 0.25rem;
+		}
+
+		.image.right {
+			float: right;
+			margin: 0 0 1rem 1.5rem;
+			top: 0.25rem;
+		}
+
+		.image.fit {
+			display: block;
+			margin: 0 0 2rem 0;
+			width: 100%;
+		}
+
+			.image.fit img {
+				width: 100%;
+			}
+
+		.image.main {
+			display: block;
+			margin: 0 0 3rem 0;
+			width: 100%;
+		}
+
+			.image.main img {
+				width: 100%;
+			}
+
+/* List */
+
+	ol {
+		list-style: decimal;
+		margin: 0 0 2rem 0;
+		padding-left: 1.25rem;
+	}
+
+		ol li {
+			padding-left: 0.25rem;
+		}
+
+	ul {
+		list-style: disc;
+		margin: 0 0 2rem 0;
+		padding-left: 1rem;
+	}
+
+		ul li {
+			padding-left: 0.5rem;
+		}
+
+		ul.alt {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.alt li {
+				border-top: solid 1px;
+				padding: 0.5rem 0;
+			}
+
+				ul.alt li:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+		ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+				padding: 0 1rem 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0;
+				}
+
+				ul.icons li .icon:before {
+					font-size: 2rem;
+				}
+
+		ul.actions {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.actions li {
+				display: inline-block;
+				padding: 0 1rem 0 0;
+				vertical-align: middle;
+			}
+
+				ul.actions li:last-child {
+					padding-right: 0;
+				}
+
+			ul.actions.small li {
+				padding: 0 0.5rem 0 0;
+			}
+
+			ul.actions.vertical li {
+				display: block;
+				padding: 1rem 0 0 0;
+			}
+
+				ul.actions.vertical li:first-child {
+					padding-top: 0;
+				}
+
+				ul.actions.vertical li > * {
+					margin-bottom: 0;
+				}
+
+			ul.actions.vertical.small li {
+				padding: 0.5rem 0 0 0;
+			}
+
+				ul.actions.vertical.small li:first-child {
+					padding-top: 0;
+				}
+
+			ul.actions.fit {
+				display: table;
+				margin-left: -1rem;
+				padding: 0;
+				table-layout: fixed;
+				width: calc(100% + 1rem);
+			}
+
+				ul.actions.fit li {
+					display: table-cell;
+					padding: 0 0 0 1rem;
+				}
+
+					ul.actions.fit li > * {
+						margin-bottom: 0;
+					}
+
+				ul.actions.fit.small {
+					margin-left: -0.5rem;
+					width: calc(100% + 0.5rem);
+				}
+
+					ul.actions.fit.small li {
+						padding: 0 0 0 0.5rem;
+					}
+
+			@media screen and (max-width: 480px) {
+
+				ul.actions {
+					margin: 0 0 2rem 0;
+				}
+
+					ul.actions li {
+						padding: 1rem 0 0 0;
+						display: block;
+						text-align: center;
+						width: 100%;
+					}
+
+						ul.actions li:first-child {
+							padding-top: 0;
+						}
+
+						ul.actions li > * {
+							width: 100%;
+							margin: 0 !important;
+						}
+
+							ul.actions li > *.icon:before {
+								margin-left: -2rem;
+							}
+
+					ul.actions.small li {
+						padding: 0.5rem 0 0 0;
+					}
+
+						ul.actions.small li:first-child {
+							padding-top: 0;
+						}
+
+			}
+
+	dl {
+		margin: 0 0 2rem 0;
+	}
+
+		dl dt {
+			display: block;
+			font-weight: 700;
+			margin: 0 0 1rem 0;
+		}
+
+		dl dd {
+			margin-left: 2rem;
+		}
+
+	ul.alt li {
+		border-top-color: rgba(144, 144, 144, 0.25);
+	}
+
+/* Section/Article */
+
+	section.special, article.special {
+		text-align: center;
+	}
+
+	header p {
+		position: relative;
+		margin: 0 0 1.5rem 0;
+	}
+
+	header h2 + p {
+		font-size: 1.25rem;
+		margin-top: -1rem;
+	}
+
+	header h3 + p {
+		font-size: 1.1rem;
+		margin-top: -0.8rem;
+	}
+
+	header h4 + p,
+	header h5 + p,
+	header h6 + p {
+		font-size: 0.9rem;
+		margin-top: -0.6rem;
+	}
+
+	header p {
+		color: #bbb;
+	}
+
+/* Table */
+
+	.table-wrapper {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+	}
+
+	table {
+		margin: 0 0 2rem 0;
+		width: 100%;
+	}
+
+		table tbody tr {
+			border: solid 1px;
+			border-left: 0;
+			border-right: 0;
+		}
+
+		table td {
+			padding: 0.75rem 0.75rem;
+		}
+
+		table th {
+			font-size: 0.9rem;
+			font-weight: 700;
+			padding: 0 0.75rem 0.75rem 0.75rem;
+			text-align: left;
+		}
+
+		table thead {
+			border-bottom: solid 2px;
+		}
+
+		table tfoot {
+			border-top: solid 2px;
+		}
+
+		table.alt {
+			border-collapse: separate;
+		}
+
+			table.alt tbody tr td {
+				border: solid 1px;
+				border-left-width: 0;
+				border-top-width: 0;
+			}
+
+				table.alt tbody tr td:first-child {
+					border-left-width: 1px;
+				}
+
+			table.alt tbody tr:first-child td {
+				border-top-width: 1px;
+			}
+
+			table.alt thead {
+				border-bottom: 0;
+			}
+
+			table.alt tfoot {
+				border-top: 0;
+			}
+
+	table tbody tr {
+		border-color: rgba(144, 144, 144, 0.25);
+	}
+
+		table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(144, 144, 144, 0.075);
+		}
+
+	table th {
+		color: #555;
+	}
+
+	table thead {
+		border-bottom-color: rgba(144, 144, 144, 0.25);
+	}
+
+	table tfoot {
+		border-top-color: rgba(144, 144, 144, 0.25);
+	}
+
+	table.alt tbody tr td {
+		border-color: rgba(144, 144, 144, 0.25);
+	}
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 6rem 0 4rem 0 ;
+		position: relative;
+		margin: 0;
+	}
+
+		.wrapper > .inner {
+			margin: 0 auto;
+			width: 80rem;
+		}
+
+		.wrapper.style1 {
+			background-color: #8a4680;
+			color: #e2d1df;
+		}
+
+			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
+				color: #ffffff;
+			}
+
+			.wrapper.style1 a {
+				color: #ffffff;
+			}
+
+			.wrapper.style1 strong, .wrapper.style1 b {
+				color: #ffffff;
+			}
+
+			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
+				color: #ffffff;
+			}
+
+			.wrapper.style1 blockquote {
+				border-left-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style1 code {
+				background: rgba(255, 255, 255, 0.075);
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style1 hr {
+				border-bottom-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style1 .box {
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style1 input[type="submit"],
+			.wrapper.style1 input[type="reset"],
+			.wrapper.style1 input[type="button"],
+			.wrapper.style1 button,
+			.wrapper.style1 .button {
+				background-color: #f2f2f2;
+				color: #000 !important;
+			}
+
+				.wrapper.style1 input[type="submit"]:hover,
+				.wrapper.style1 input[type="reset"]:hover,
+				.wrapper.style1 input[type="button"]:hover,
+				.wrapper.style1 button:hover,
+				.wrapper.style1 .button:hover {
+					background-color: white;
+				}
+
+				.wrapper.style1 input[type="submit"]:active,
+				.wrapper.style1 input[type="reset"]:active,
+				.wrapper.style1 input[type="button"]:active,
+				.wrapper.style1 button:active,
+				.wrapper.style1 .button:active {
+					background-color: #e5e5e5;
+				}
+
+				.wrapper.style1 input[type="submit"].alt,
+				.wrapper.style1 input[type="reset"].alt,
+				.wrapper.style1 input[type="button"].alt,
+				.wrapper.style1 button.alt,
+				.wrapper.style1 .button.alt {
+					background-color: transparent;
+					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+					color: #ffffff !important;
+				}
+
+					.wrapper.style1 input[type="submit"].alt:hover,
+					.wrapper.style1 input[type="reset"].alt:hover,
+					.wrapper.style1 input[type="button"].alt:hover,
+					.wrapper.style1 button.alt:hover,
+					.wrapper.style1 .button.alt:hover {
+						background-color: rgba(255, 255, 255, 0.075);
+					}
+
+					.wrapper.style1 input[type="submit"].alt:active,
+					.wrapper.style1 input[type="reset"].alt:active,
+					.wrapper.style1 input[type="button"].alt:active,
+					.wrapper.style1 button.alt:active,
+					.wrapper.style1 .button.alt:active {
+						background-color: rgba(255, 255, 255, 0.2);
+					}
+
+					.wrapper.style1 input[type="submit"].alt.icon:before,
+					.wrapper.style1 input[type="reset"].alt.icon:before,
+					.wrapper.style1 input[type="button"].alt.icon:before,
+					.wrapper.style1 button.alt.icon:before,
+					.wrapper.style1 .button.alt.icon:before {
+						color: #d0b5cc;
+					}
+
+				.wrapper.style1 input[type="submit"].special,
+				.wrapper.style1 input[type="reset"].special,
+				.wrapper.style1 input[type="button"].special,
+				.wrapper.style1 button.special,
+				.wrapper.style1 .button.special {
+					background-color: #ffffff;
+					color: #8a4680 !important;
+				}
+
+			.wrapper.style1 label {
+				color: #ffffff;
+			}
+
+			.wrapper.style1 input[type="text"],
+			.wrapper.style1 input[type="password"],
+			.wrapper.style1 input[type="email"],
+			.wrapper.style1 select,
+			.wrapper.style1 textarea {
+				background: rgba(255, 255, 255, 0.075);
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+				.wrapper.style1 input[type="text"]:focus,
+				.wrapper.style1 input[type="password"]:focus,
+				.wrapper.style1 input[type="email"]:focus,
+				.wrapper.style1 select:focus,
+				.wrapper.style1 textarea:focus {
+					border-color: #ffffff;
+					box-shadow: 0 0 0 1px #ffffff;
+				}
+
+			.wrapper.style1 .select-wrapper:before {
+				color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style1 input[type="checkbox"] + label,
+			.wrapper.style1 input[type="radio"] + label {
+				color: #e2d1df;
+			}
+
+				.wrapper.style1 input[type="checkbox"] + label:before,
+				.wrapper.style1 input[type="radio"] + label:before {
+					background: rgba(255, 255, 255, 0.075);
+					border-color: rgba(255, 255, 255, 0.25);
+				}
+
+			.wrapper.style1 input[type="checkbox"]:checked + label:before,
+			.wrapper.style1 input[type="radio"]:checked + label:before {
+				background-color: #ffffff;
+				border-color: #ffffff;
+				color: #8a4680;
+			}
+
+			.wrapper.style1 input[type="checkbox"]:focus + label:before,
+			.wrapper.style1 input[type="radio"]:focus + label:before {
+				border-color: #ffffff;
+				box-shadow: 0 0 0 1px #ffffff;
+			}
+
+			.wrapper.style1 ::-webkit-input-placeholder {
+				color: #d0b5cc !important;
+			}
+
+			.wrapper.style1 :-moz-placeholder {
+				color: #d0b5cc !important;
+			}
+
+			.wrapper.style1 ::-moz-placeholder {
+				color: #d0b5cc !important;
+			}
+
+			.wrapper.style1 :-ms-input-placeholder {
+				color: #d0b5cc !important;
+			}
+
+			.wrapper.style1 .formerize-placeholder {
+				color: #d0b5cc !important;
+			}
+
+			.wrapper.style1 ul.alt li {
+				border-top-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style1 header p {
+				color: #d0b5cc;
+			}
+
+			.wrapper.style1 table tbody tr {
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+				.wrapper.style1 table tbody tr:nth-child(2n + 1) {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+			.wrapper.style1 table th {
+				color: #ffffff;
+			}
+
+			.wrapper.style1 table thead {
+				border-bottom-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style1 table tfoot {
+				border-top-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style1 table.alt tbody tr td {
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+		.wrapper.style2 {
+			background-color: #f2f2f2;
+			color: #a6a6a6;
+		}
+
+			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
+				color: #000;
+			}
+
+			.wrapper.style2 a {
+				color: #8a4680;
+			}
+
+			.wrapper.style2 strong, .wrapper.style2 b {
+				color: #000;
+			}
+
+			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
+				color: #000;
+			}
+
+			.wrapper.style2 blockquote {
+				border-left-color: rgba(0, 0, 0, 0.15);
+			}
+
+			.wrapper.style2 code {
+				background: rgba(0, 0, 0, 0.075);
+				border-color: rgba(0, 0, 0, 0.15);
+			}
+
+			.wrapper.style2 hr {
+				border-bottom-color: rgba(0, 0, 0, 0.15);
+			}
+
+			.wrapper.style2 .box {
+				border-color: rgba(0, 0, 0, 0.15);
+			}
+
+			.wrapper.style2 input[type="submit"],
+			.wrapper.style2 input[type="reset"],
+			.wrapper.style2 input[type="button"],
+			.wrapper.style2 button,
+			.wrapper.style2 .button {
+				background-color: #000;
+				color: #f2f2f2 !important;
+			}
+
+				.wrapper.style2 input[type="submit"].alt,
+				.wrapper.style2 input[type="reset"].alt,
+				.wrapper.style2 input[type="button"].alt,
+				.wrapper.style2 button.alt,
+				.wrapper.style2 .button.alt {
+					background-color: transparent;
+					box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
+					color: #000 !important;
+				}
+
+					.wrapper.style2 input[type="submit"].alt:hover,
+					.wrapper.style2 input[type="reset"].alt:hover,
+					.wrapper.style2 input[type="button"].alt:hover,
+					.wrapper.style2 button.alt:hover,
+					.wrapper.style2 .button.alt:hover {
+						background-color: rgba(0, 0, 0, 0.075);
+					}
+
+					.wrapper.style2 input[type="submit"].alt:active,
+					.wrapper.style2 input[type="reset"].alt:active,
+					.wrapper.style2 input[type="button"].alt:active,
+					.wrapper.style2 button.alt:active,
+					.wrapper.style2 .button.alt:active {
+						background-color: rgba(0, 0, 0, 0.2);
+					}
+
+					.wrapper.style2 input[type="submit"].alt.icon:before,
+					.wrapper.style2 input[type="reset"].alt.icon:before,
+					.wrapper.style2 input[type="button"].alt.icon:before,
+					.wrapper.style2 button.alt.icon:before,
+					.wrapper.style2 .button.alt.icon:before {
+						color: #999999;
+					}
+
+				.wrapper.style2 input[type="submit"].special,
+				.wrapper.style2 input[type="reset"].special,
+				.wrapper.style2 input[type="button"].special,
+				.wrapper.style2 button.special,
+				.wrapper.style2 .button.special {
+					background-color: #8a4680;
+					color: #ffffff !important;
+				}
+
+					.wrapper.style2 input[type="submit"].special:hover,
+					.wrapper.style2 input[type="reset"].special:hover,
+					.wrapper.style2 input[type="button"].special:hover,
+					.wrapper.style2 button.special:hover,
+					.wrapper.style2 .button.special:hover {
+						background-color: #9b4f90;
+					}
+
+					.wrapper.style2 input[type="submit"].special:active,
+					.wrapper.style2 input[type="reset"].special:active,
+					.wrapper.style2 input[type="button"].special:active,
+					.wrapper.style2 button.special:active,
+					.wrapper.style2 .button.special:active {
+						background-color: #793d70;
+					}
+
+			.wrapper.style2 label {
+				color: #000;
+			}
+
+			.wrapper.style2 input[type="text"],
+			.wrapper.style2 input[type="password"],
+			.wrapper.style2 input[type="email"],
+			.wrapper.style2 select,
+			.wrapper.style2 textarea {
+				background: rgba(0, 0, 0, 0.075);
+				border-color: rgba(0, 0, 0, 0.15);
+			}
+
+				.wrapper.style2 input[type="text"]:focus,
+				.wrapper.style2 input[type="password"]:focus,
+				.wrapper.style2 input[type="email"]:focus,
+				.wrapper.style2 select:focus,
+				.wrapper.style2 textarea:focus {
+					border-color: #8a4680;
+					box-shadow: 0 0 0 1px #8a4680;
+				}
+
+			.wrapper.style2 .select-wrapper:before {
+				color: rgba(0, 0, 0, 0.15);
+			}
+
+			.wrapper.style2 input[type="checkbox"] + label,
+			.wrapper.style2 input[type="radio"] + label {
+				color: #a6a6a6;
+			}
+
+				.wrapper.style2 input[type="checkbox"] + label:before,
+				.wrapper.style2 input[type="radio"] + label:before {
+					background: rgba(0, 0, 0, 0.075);
+					border-color: rgba(0, 0, 0, 0.15);
+				}
+
+			.wrapper.style2 input[type="checkbox"]:checked + label:before,
+			.wrapper.style2 input[type="radio"]:checked + label:before {
+				background-color: #8a4680;
+				border-color: #8a4680;
+				color: #ffffff;
+			}
+
+			.wrapper.style2 input[type="checkbox"]:focus + label:before,
+			.wrapper.style2 input[type="radio"]:focus + label:before {
+				border-color: #8a4680;
+				box-shadow: 0 0 0 1px #8a4680;
+			}
+
+			.wrapper.style2 ::-webkit-input-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style2 :-moz-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style2 ::-moz-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style2 :-ms-input-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style2 .formerize-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style2 ul.alt li {
+				border-top-color: rgba(0, 0, 0, 0.15);
+			}
+
+			.wrapper.style2 header p {
+				color: #999999;
+			}
+
+			.wrapper.style2 table tbody tr {
+				border-color: rgba(0, 0, 0, 0.15);
+			}
+
+				.wrapper.style2 table tbody tr:nth-child(2n + 1) {
+					background-color: rgba(0, 0, 0, 0.075);
+				}
+
+			.wrapper.style2 table th {
+				color: #000;
+			}
+
+			.wrapper.style2 table thead {
+				border-bottom-color: rgba(0, 0, 0, 0.15);
+			}
+
+			.wrapper.style2 table tfoot {
+				border-top-color: rgba(0, 0, 0, 0.15);
+			}
+
+			.wrapper.style2 table.alt tbody tr td {
+				border-color: rgba(0, 0, 0, 0.15);
+			}
+
+		.wrapper.style3 {
+			background-color: #000;
+			color: #bfbfbf;
+			background-image: url(../../images/bg.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center;
+			position: relative;
+		}
+
+			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
+				color: #ffffff;
+			}
+
+			.wrapper.style3 a {
+				color: #8a4680;
+			}
+
+			.wrapper.style3 strong, .wrapper.style3 b {
+				color: #ffffff;
+			}
+
+			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
+				color: #ffffff;
+			}
+
+			.wrapper.style3 blockquote {
+				border-left-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style3 code {
+				background: rgba(255, 255, 255, 0.075);
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style3 hr {
+				border-bottom-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style3 .box {
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style3 input[type="submit"],
+			.wrapper.style3 input[type="reset"],
+			.wrapper.style3 input[type="button"],
+			.wrapper.style3 button,
+			.wrapper.style3 .button {
+				background-color: #f2f2f2;
+				color: #000 !important;
+			}
+
+				.wrapper.style3 input[type="submit"]:hover,
+				.wrapper.style3 input[type="reset"]:hover,
+				.wrapper.style3 input[type="button"]:hover,
+				.wrapper.style3 button:hover,
+				.wrapper.style3 .button:hover {
+					background-color: white;
+				}
+
+				.wrapper.style3 input[type="submit"]:active,
+				.wrapper.style3 input[type="reset"]:active,
+				.wrapper.style3 input[type="button"]:active,
+				.wrapper.style3 button:active,
+				.wrapper.style3 .button:active {
+					background-color: #e5e5e5;
+				}
+
+				.wrapper.style3 input[type="submit"].alt,
+				.wrapper.style3 input[type="reset"].alt,
+				.wrapper.style3 input[type="button"].alt,
+				.wrapper.style3 button.alt,
+				.wrapper.style3 .button.alt {
+					background-color: transparent;
+					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+					color: #ffffff !important;
+				}
+
+					.wrapper.style3 input[type="submit"].alt:hover,
+					.wrapper.style3 input[type="reset"].alt:hover,
+					.wrapper.style3 input[type="button"].alt:hover,
+					.wrapper.style3 button.alt:hover,
+					.wrapper.style3 .button.alt:hover {
+						background-color: rgba(255, 255, 255, 0.075);
+					}
+
+					.wrapper.style3 input[type="submit"].alt:active,
+					.wrapper.style3 input[type="reset"].alt:active,
+					.wrapper.style3 input[type="button"].alt:active,
+					.wrapper.style3 button.alt:active,
+					.wrapper.style3 .button.alt:active {
+						background-color: rgba(255, 255, 255, 0.2);
+					}
+
+					.wrapper.style3 input[type="submit"].alt.icon:before,
+					.wrapper.style3 input[type="reset"].alt.icon:before,
+					.wrapper.style3 input[type="button"].alt.icon:before,
+					.wrapper.style3 button.alt.icon:before,
+					.wrapper.style3 .button.alt.icon:before {
+						color: #999999;
+					}
+
+				.wrapper.style3 input[type="submit"].special,
+				.wrapper.style3 input[type="reset"].special,
+				.wrapper.style3 input[type="button"].special,
+				.wrapper.style3 button.special,
+				.wrapper.style3 .button.special {
+					background-color: #8a4680;
+					color: #ffffff !important;
+				}
+
+					.wrapper.style3 input[type="submit"].special:hover,
+					.wrapper.style3 input[type="reset"].special:hover,
+					.wrapper.style3 input[type="button"].special:hover,
+					.wrapper.style3 button.special:hover,
+					.wrapper.style3 .button.special:hover {
+						background-color: #9b4f90;
+					}
+
+					.wrapper.style3 input[type="submit"].special:active,
+					.wrapper.style3 input[type="reset"].special:active,
+					.wrapper.style3 input[type="button"].special:active,
+					.wrapper.style3 button.special:active,
+					.wrapper.style3 .button.special:active {
+						background-color: #793d70;
+					}
+
+			.wrapper.style3 label {
+				color: #ffffff;
+			}
+
+			.wrapper.style3 input[type="text"],
+			.wrapper.style3 input[type="password"],
+			.wrapper.style3 input[type="email"],
+			.wrapper.style3 select,
+			.wrapper.style3 textarea {
+				background: rgba(255, 255, 255, 0.075);
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+				.wrapper.style3 input[type="text"]:focus,
+				.wrapper.style3 input[type="password"]:focus,
+				.wrapper.style3 input[type="email"]:focus,
+				.wrapper.style3 select:focus,
+				.wrapper.style3 textarea:focus {
+					border-color: #8a4680;
+					box-shadow: 0 0 0 1px #8a4680;
+				}
+
+			.wrapper.style3 .select-wrapper:before {
+				color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style3 input[type="checkbox"] + label,
+			.wrapper.style3 input[type="radio"] + label {
+				color: #bfbfbf;
+			}
+
+				.wrapper.style3 input[type="checkbox"] + label:before,
+				.wrapper.style3 input[type="radio"] + label:before {
+					background: rgba(255, 255, 255, 0.075);
+					border-color: rgba(255, 255, 255, 0.25);
+				}
+
+			.wrapper.style3 input[type="checkbox"]:checked + label:before,
+			.wrapper.style3 input[type="radio"]:checked + label:before {
+				background-color: #8a4680;
+				border-color: #8a4680;
+				color: #ffffff;
+			}
+
+			.wrapper.style3 input[type="checkbox"]:focus + label:before,
+			.wrapper.style3 input[type="radio"]:focus + label:before {
+				border-color: #8a4680;
+				box-shadow: 0 0 0 1px #8a4680;
+			}
+
+			.wrapper.style3 ::-webkit-input-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style3 :-moz-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style3 ::-moz-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style3 :-ms-input-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style3 .formerize-placeholder {
+				color: #999999 !important;
+			}
+
+			.wrapper.style3 ul.alt li {
+				border-top-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style3 header p {
+				color: #999999;
+			}
+
+			.wrapper.style3 table tbody tr {
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+				.wrapper.style3 table tbody tr:nth-child(2n + 1) {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+			.wrapper.style3 table th {
+				color: #ffffff;
+			}
+
+			.wrapper.style3 table thead {
+				border-bottom-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style3 table tfoot {
+				border-top-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style3 table.alt tbody tr td {
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style3 .inner {
+				position: relative;
+				z-index: 2;
+			}
+
+			.wrapper.style3 p {
+				text-transform: uppercase;
+				font-size: .75rem;
+				font-weight: 300;
+				margin: 0 0 .5rem 0;
+				padding: 0 0 1rem 0;
+				letter-spacing: .25rem;
+			}
+
+				.wrapper.style3 p:after {
+					content: '';
+					position: absolute;
+					margin: auto;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					width: 50%;
+					height: 1px;
+					background-color: rgba(255, 255, 255, 0.5);
+				}
+
+			.wrapper.style3:before {
+				-moz-transition: opacity 3s ease;
+				-webkit-transition: opacity 3s ease;
+				-ms-transition: opacity 3s ease;
+				transition: opacity 3s ease;
+				-moz-transition-delay: 1.25s;
+				-webkit-transition-delay: 1.25s;
+				-ms-transition-delay: 1.25s;
+				transition-delay: 1.25s;
+				content: '';
+				display: block;
+				background-color: rgba(0, 0, 0, 0.95);
+				height: 100%;
+				left: 0;
+				opacity: 0.75;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				z-index: 1;
+			}
+
+		@media screen and (max-width: 1280px) {
+
+			.wrapper > .inner {
+				width: 75rem;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.wrapper > .inner {
+				width: 90%;
+			}
+
+			.wrapper.style3 {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.wrapper {
+				padding: 3rem 0 1rem 0 ;
+			}
+
+		}
+
+/* Flexgrid */
+
+	.grid-style {
+		width: 100%;
+		margin: 0 0 2.5rem 0;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-moz-align-items: stretch;
+		-webkit-align-items: stretch;
+		-ms-align-items: stretch;
+		align-items: stretch;
+	}
+
+		.grid-style > * {
+			-moz-flex-shrink: 1;
+			-webkit-flex-shrink: 1;
+			-ms-flex-shrink: 1;
+			flex-shrink: 1;
+			-moz-flex-grow: 0;
+			-webkit-flex-grow: 0;
+			-ms-flex-grow: 0;
+			flex-grow: 0;
+		}
+
+		.grid-style > * {
+			width: 50%;
+		}
+
+		.grid-style > * {
+			padding: 2rem;
+			width: calc(50% + 2rem);
+		}
+
+		.grid-style > :nth-child(-n + 2) {
+			padding-top: 0;
+		}
+
+		.grid-style > :nth-last-child(-n + 2) {
+			padding-bottom: 0;
+		}
+
+		.grid-style > :nth-child(2n + 1) {
+			padding-left: 0;
+		}
+
+		.grid-style > :nth-child(2n) {
+			padding-right: 0;
+		}
+
+		.grid-style > :nth-child(2n + 1),
+		.grid-style > :nth-child(2n) {
+			width: calc(50% + 0rem);
+		}
+
+		.grid-style .box {
+			margin: 0;
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.grid-style > * {
+				width: 100%;
+			}
+
+			.grid-style > * {
+				padding: 1rem;
+				width: calc(50% + 1rem);
+			}
+
+			.grid-style > :nth-child(-n + 2) {
+				padding-top: 1rem;
+			}
+
+			.grid-style > :nth-last-child(-n + 2) {
+				padding-bottom: 1rem;
+			}
+
+			.grid-style > :nth-child(2n + 1) {
+				padding-left: 1rem;
+			}
+
+			.grid-style > :nth-child(2n) {
+				padding-right: 1rem;
+			}
+
+			.grid-style > :nth-child(2n + 1),
+			.grid-style > :nth-child(2n) {
+				padding: 1rem;
+				width: calc(100% + 2rem);
+			}
+
+			.grid-style > * {
+				padding: 1rem;
+				width: calc(100% + 2rem);
+			}
+
+			.grid-style > :nth-child(-n + 1) {
+				padding-top: 0;
+			}
+
+			.grid-style > :nth-last-child(-n + 1) {
+				padding-bottom: 0;
+			}
+
+			.grid-style > :nth-child(1n + 1) {
+				padding-left: 0;
+			}
+
+			.grid-style > :nth-child(1n) {
+				padding-right: 0;
+			}
+
+			.grid-style > :nth-child(1n + 1),
+			.grid-style > :nth-child(1n) {
+				width: calc(100% + 1rem);
+			}
+
+		}
+
+	.gallery {
+		width: 100%;
+		margin: 2.5rem 0 2.5rem 0;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-moz-align-items: stretch;
+		-webkit-align-items: stretch;
+		-ms-align-items: stretch;
+		align-items: stretch;
+	}
+
+		.gallery > * {
+			-moz-flex-shrink: 1;
+			-webkit-flex-shrink: 1;
+			-ms-flex-shrink: 1;
+			flex-shrink: 1;
+			-moz-flex-grow: 0;
+			-webkit-flex-grow: 0;
+			-ms-flex-grow: 0;
+			flex-grow: 0;
+		}
+
+		.gallery > * {
+			width: 50%;
+		}
+
+		.gallery > * {
+			padding: 2rem;
+			width: calc(50% + 2rem);
+		}
+
+		.gallery > :nth-child(-n + 2) {
+			padding-top: 0;
+		}
+
+		.gallery > :nth-last-child(-n + 2) {
+			padding-bottom: 0;
+		}
+
+		.gallery > :nth-child(2n + 1) {
+			padding-left: 0;
+		}
+
+		.gallery > :nth-child(2n) {
+			padding-right: 0;
+		}
+
+		.gallery > :nth-child(2n + 1),
+		.gallery > :nth-child(2n) {
+			width: calc(50% + 0rem);
+		}
+
+		.gallery .image {
+			background: #FFF;
+			padding: 1rem;
+		}
+
+			.gallery .image.fit {
+				margin: 0;
+			}
+
+		@media screen and (max-width: 980px) {
+
+			.gallery > * {
+				width: 100%;
+			}
+
+			.gallery > * {
+				padding: 1rem;
+				width: calc(50% + 1rem);
+			}
+
+			.gallery > :nth-child(-n + 2) {
+				padding-top: 1rem;
+			}
+
+			.gallery > :nth-last-child(-n + 2) {
+				padding-bottom: 1rem;
+			}
+
+			.gallery > :nth-child(2n + 1) {
+				padding-left: 1rem;
+			}
+
+			.gallery > :nth-child(2n) {
+				padding-right: 1rem;
+			}
+
+			.gallery > :nth-child(2n + 1),
+			.gallery > :nth-child(2n) {
+				padding: 1rem;
+				width: calc(100% + 2rem);
+			}
+
+			.gallery > * {
+				padding: 1rem;
+				width: calc(100% + 2rem);
+			}
+
+			.gallery > :nth-child(-n + 1) {
+				padding-top: 0;
+			}
+
+			.gallery > :nth-last-child(-n + 1) {
+				padding-bottom: 0;
+			}
+
+			.gallery > :nth-child(1n + 1) {
+				padding-left: 0;
+			}
+
+			.gallery > :nth-child(1n) {
+				padding-right: 0;
+			}
+
+			.gallery > :nth-child(1n + 1),
+			.gallery > :nth-child(1n) {
+				width: calc(100% + 1rem);
+			}
+
+		}
+
+/* Header */
+
+	body.subpage {
+		padding-top: 3.25em;
+	}
+
+	@-moz-keyframes reveal-header {
+		0% {
+			top: -4em;
+			opacity: 0;
+		}
+
+		100% {
+			top: 0;
+			opacity: 1;
+		}
+	}
+
+	@-webkit-keyframes reveal-header {
+		0% {
+			top: -4em;
+			opacity: 0;
+		}
+
+		100% {
+			top: 0;
+			opacity: 1;
+		}
+	}
+
+	@-ms-keyframes reveal-header {
+		0% {
+			top: -4em;
+			opacity: 0;
+		}
+
+		100% {
+			top: 0;
+			opacity: 1;
+		}
+	}
+
+	@keyframes reveal-header {
+		0% {
+			top: -4em;
+			opacity: 0;
+		}
+
+		100% {
+			top: 0;
+			opacity: 1;
+		}
+	}
+
+	#header {
+		background: rgba(0, 0, 0, 0.975);
+		color: #a6a6a6;
+		cursor: default;
+		height: 3.25em;
+		left: 0;
+		line-height: 3.25em;
+		position: fixed;
+		text-align: right;
+		top: 0;
+		width: 100%;
+		z-index: 10001;
+	}
+
+		#header > .logo {
+			display: inline-block;
+			height: inherit;
+			left: 1.25em;
+			line-height: inherit;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+		}
+
+			#header > .logo a {
+				font-size: 1.25em;
+				color: #FFF;
+				text-decoration: none;
+			}
+
+				#header > .logo a:hover {
+					color: rgba(255, 255, 255, 0.65);
+				}
+
+			#header > .logo span {
+				font-weight: 400;
+				font-size: .8em;
+				color: rgba(255, 255, 255, 0.65);
+			}
+
+		#header > a {
+			-moz-transition: color 0.2s ease-in-out;
+			-webkit-transition: color 0.2s ease-in-out;
+			-ms-transition: color 0.2s ease-in-out;
+			transition: color 0.2s ease-in-out;
+			display: inline-block;
+			padding: 0 0.75em;
+			color: inherit;
+			text-decoration: none;
+			color: #FFF;
+		}
+
+			#header > a:hover {
+				color: #f2f2f2;
+			}
+
+			#header > a[href="#menu"] {
+				text-decoration: none;
+				-webkit-tap-highlight-color: transparent;
+			}
+
+				#header > a[href="#menu"]:before {
+					content: "";
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				#header > a[href="#menu"]:before {
+					margin: 0 0.5em 0 0;
+				}
+
+			#header > a + a[href="#menu"]:last-child {
+				border-left: solid 1px rgba(0, 0, 0, 0.15);
+				padding-left: 1.25em;
+				margin-left: 0.5em;
+			}
+
+			#header > a:last-child {
+				padding-right: 1.25em;
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#header > a {
+					padding: 0 0.5em;
+				}
+
+					#header > a + a[href="#menu"]:last-child {
+						padding-left: 1em;
+						margin-left: 0.25em;
+					}
+
+					#header > a:last-child {
+						padding-right: 1em;
+					}
+
+			}
+
+		#header.reveal {
+			-moz-animation: reveal-header 0.5s ease;
+			-webkit-animation: reveal-header 0.5s ease;
+			-ms-animation: reveal-header 0.5s ease;
+			animation: reveal-header 0.5s ease;
+		}
+
+		#header.alt {
+			-moz-animation: none;
+			-webkit-animation: none;
+			-ms-animation: none;
+			animation: none;
+			background-color: transparent;
+			box-shadow: none;
+			overflow: hidden;
+			position: absolute;
+			top: 1.5em;
+		}
+
+			#header.alt h1 {
+				left: 2.5em;
+			}
+
+			#header.alt nav {
+				right: 2.5em;
+			}
+
+	@media screen and (max-width: 980px) {
+
+		body.subpage {
+			padding-top: 44px;
+		}
+
+		#header {
+			height: 44px;
+			line-height: 44px;
+		}
+
+			#header > h1 {
+				left: 1em;
+			}
+
+				#header > h1 a {
+					font-size: 1em;
+				}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		#header {
+			min-width: 320px;
+		}
+
+	}
+
+/* Menu */
+
+	#menu {
+		-moz-transform: translateX(20rem);
+		-webkit-transform: translateX(20rem);
+		-ms-transform: translateX(20rem);
+		transform: translateX(20rem);
+		-moz-transition: -moz-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
+		-webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
+		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
+		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
+		-webkit-overflow-scrolling: touch;
+		background: rgba(0, 0, 0, 0.95);
+		box-shadow: none;
+		color: #000;
+		height: 100%;
+		max-width: 80%;
+		overflow-y: auto;
+		padding: 3rem 2rem;
+		position: fixed;
+		right: 0;
+		top: 0;
+		visibility: hidden;
+		width: 20rem;
+		z-index: 10002;
+	}
+
+		#menu > ul {
+			margin: 0 0 1rem 0;
+		}
+
+			#menu > ul.links {
+				list-style: none;
+				padding: 0;
+			}
+
+				#menu > ul.links > li {
+					padding: 0;
+				}
+
+					#menu > ul.links > li > a:not(.button) {
+						border: 0;
+						border-top: solid 1px rgba(255, 255, 255, 0.125);
+						color: rgba(255, 255, 255, 0.5);
+						display: block;
+						line-height: 3.5rem;
+						text-decoration: none;
+						text-transform: uppercase;
+					}
+
+						#menu > ul.links > li > a:not(.button):hover {
+							color: #FFF;
+						}
+
+					#menu > ul.links > li > .button {
+						display: block;
+						margin: 0.5rem 0 0 0;
+					}
+
+					#menu > ul.links > li:first-child > a:not(.button) {
+						border-top: 0 !important;
+					}
+
+		#menu .close {
+			text-decoration: none;
+			-moz-transition: color 0.2s ease-in-out;
+			-webkit-transition: color 0.2s ease-in-out;
+			-ms-transition: color 0.2s ease-in-out;
+			transition: color 0.2s ease-in-out;
+			-webkit-tap-highlight-color: transparent;
+			border: 0;
+			color: #999999;
+			cursor: pointer;
+			display: block;
+			height: 3.25rem;
+			line-height: 3.25rem;
+			padding-right: 1.25rem;
+			position: absolute;
+			right: 0;
+			text-align: right;
+			top: 0;
+			vertical-align: middle;
+			width: 7rem;
+		}
+
+			#menu .close:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
+			}
+
+			#menu .close:before {
+				content: '\f00d';
+				font-size: 1.25rem;
+			}
+
+			#menu .close:hover {
+				color: #000;
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#menu .close {
+					height: 4rem;
+					line-height: 4rem;
+				}
+
+			}
+
+		#menu.visible {
+			-moz-transform: translateX(0);
+			-webkit-transform: translateX(0);
+			-ms-transform: translateX(0);
+			transform: translateX(0);
+			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
+			visibility: visible;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#menu {
+				padding: 2.5rem 1.75rem;
+			}
+
+		}
+
+/* Banner */
+
+	.banner {
+		background-color: #8a4680;
+		color: #e2d1df;
+		padding: 8em 0;
+		position: relative;
+	}
+
+		.banner input, .banner select, .banner textarea {
+			color: #ffffff;
+		}
+
+		.banner a {
+			color: #ffffff;
+		}
+
+		.banner strong, .banner b {
+			color: #ffffff;
+		}
+
+		.banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
+			color: #ffffff;
+		}
+
+		.banner blockquote {
+			border-left-color: rgba(255, 255, 255, 0.25);
+		}
+
+		.banner code {
+			background: rgba(255, 255, 255, 0.075);
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+		.banner hr {
+			border-bottom-color: rgba(255, 255, 255, 0.25);
+		}
+
+		.banner.full {
+			padding: 0;
+			min-height: 100vh;
+			height: 100vh !important;
+		}
+
+		.banner.half {
+			padding: 0;
+			min-height: 50vh;
+			height: 50vh !important;
+		}
+
+		.banner:after {
+			-moz-pointer-events: none;
+			-webkit-pointer-events: none;
+			-ms-pointer-events: none;
+			pointer-events: none;
+			-moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			-webkit-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			background: #000000;
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			visibility: hidden;
+			width: 100%;
+			z-index: 2;
+		}
+
+		.banner .indicators {
+			bottom: 1.5em;
+			left: 0;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+			z-index: 2;
+		}
+
+			.banner .indicators li {
+				cursor: pointer;
+				display: inline-block;
+				height: 2em;
+				overflow: hidden;
+				padding: 0;
+				position: relative;
+				text-indent: 2em;
+				width: 2em;
+			}
+
+				.banner .indicators li:before {
+					background: rgba(255, 255, 255, 0.35);
+					border-radius: 100%;
+					content: '';
+					display: inline-block;
+					height: 0.8em;
+					left: 50%;
+					margin: -0.4em 0 0 -0.4em;
+					position: absolute;
+					text-indent: 0;
+					top: 50%;
+					width: 0.8em;
+				}
+
+				.banner .indicators li.visible:before {
+					background: #fff;
+				}
+
+		.banner > article {
+			-moz-transition: opacity 1.5s ease, visibility 1.5s;
+			-webkit-transition: opacity 1.5s ease, visibility 1.5s;
+			-ms-transition: opacity 1.5s ease, visibility 1.5s;
+			transition: opacity 1.5s ease, visibility 1.5s;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			visibility: hidden;
+			width: 100%;
+			z-index: 0;
+		}
+
+			.banner > article:before {
+				content: '';
+				display: inline-block;
+				height: 100%;
+				vertical-align: middle;
+			}
+
+			.banner > article:after {
+				content: '';
+				display: block;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				background: #000;
+				opacity: 0.35;
+			}
+
+			.banner > article .inner {
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+				z-index: 1;
+			}
+
+				.banner > article .inner > :last-child {
+					margin-bottom: 0;
+				}
+
+			.banner > article h2 {
+				font-size: 7rem;
+				margin-bottom: 0;
+				color: #FFF;
+				font-weight: 300;
+			}
+
+				.banner > article h2:after {
+					display: none;
+				}
+
+			.banner > article p {
+				color: rgba(255, 255, 255, 0.65);
+				text-transform: uppercase;
+				font-size: 1rem;
+				font-weight: 300;
+				margin: 0;
+				padding-bottom: 1.75rem;
+				letter-spacing: .25rem;
+			}
+
+				.banner > article p:after {
+					content: '';
+					position: absolute;
+					margin: auto;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					width: 50%;
+					height: 1px;
+					background-color: rgba(255, 255, 255, 0.65);
+				}
+
+			.banner > article a {
+				color: #FFF;
+				text-decoration: none;
+			}
+
+			.banner > article img {
+				display: none;
+			}
+
+			.banner > article.visible {
+				opacity: 1;
+				visibility: visible;
+			}
+
+			.banner > article.top {
+				z-index: 1;
+			}
+
+			.banner > article.instant {
+				-moz-transition: none !important;
+				-webkit-transition: none !important;
+				-ms-transition: none !important;
+				transition: none !important;
+			}
+
+		body.is-loading .banner:after {
+			opacity: 1.0;
+			visibility: visible;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.banner.full {
+				padding: 0;
+				min-height: 75vh;
+				height: 75vh !important;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.banner.full {
+				padding: 0;
+				min-height: 50vh;
+				height: 50vh !important;
+			}
+
+			.banner > article {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.banner > article .inner {
+				width: 90%;
+			}
+
+			.banner > article p {
+				margin-bottom: 1rem;
+			}
+
+			.banner > article h2 {
+				font-size: 4em;
+			}
+
+		}
+
+		body.is-mobile .banner > article {
+			background-attachment: scroll;
+		}
+
+/* Main */
+
+	#main {
+		padding: 4rem 0 2rem 0 ;
+	}
+
+		@media screen and (max-width: 736px) {
+
+			#main {
+				padding: 3rem 0 1rem 0 ;
+			}
+
+		}
+
+/* Footer */
+
+	#footer {
+		padding: 2rem 0 2rem 0 ;
+		background: #000;
+		text-align: center;
+	}
+
+		#footer a {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+			#footer a:hover {
+				color: #FFF;
+			}
+
+		#footer .copyright {
+			color: #bbb;
+			font-size: 0.9rem;
+			margin: 0 0 2rem 0;
+			padding: 0;
+			text-align: center;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#footer {
+				padding: 3rem 0 1rem 0 ;
+			}
+
+		}
+	</style>
+	</head>
+	<body>
+
+		<!-- Header -->
+		<!-- Navbar -->
+
+				<!-- Navbar -->
+				<div class="w3-top" style="z-index: 4">
+				  <div class="w3-bar w3-black w3-card-2 w3-left-align w3-large">
+					<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+					<a href="http://2017.igem.org/Team:Mingdao" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+					<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-blue w3-hover-white" style="text-decoration: none; color: white">Achievements</a>
+					<a href="http://2017.igem.org/Team:Mingdao/Demonstrate" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="text-decoration: none; color: white">Project</a>
+					<a href="http://2017.igem.org/Team:Mingdao/HP/Silver" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="text-decoration: none; color: white">Human-Practice</a>
+					<a href="http://2017.igem.org/Team:Mingdao/Notebook" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="text-decoration: none; color: white">Notebook</a>
+					<a href="http://2017.igem.org/Team:Mingdao/Attributions" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="text-decoration: none; color: white;">Attributions</a>
+				  </div>
+				</div>
+				<!-- Navbar END -->
+
+
+
+
+		<!-- Sidebar/menu -->
+		<nav class="w3-sidebar w3-collapse w3-animate-left" style="z-index:3;width:180px; background-color: #F8F9FA" id="mySidebar"><br>
+
+		    <div class="w3-container">
+		        <h5>Dashboard</h5>
+		    </div>
+
+			<div class="w3-bar-block">
+		        <form action="http://2017.igem.org/Team:Mingdao/Collaborations" style="margin: 10px 15px -10px 0;">
+		            <button type="submit" class="btn btn-primary btn-block text-white" style="text-align: left; padding-left:1rem;font-size: 1.2rem;"> <i class="fa fa-bullseye fa-fw"></i>  Collaborate</button>
+		        </form>
+		        <form action="http://2017.igem.org/Team:Mingdao/HP/Silver" style="margin: 0 15px -10px 0;">
+		            <button type="submit" class="btn btn-primary btn-block text-white" style="text-align: left; padding-left:1rem;font-size: 1.2rem"> <i class="fa fa-bullseye fa-fw"></i> Silver</button>
+		        </form>
+		        <form action="http://2017.igem.org/Team:Mingdao/HP/Gold_Integrated" style="margin: 0 15px -20px 0;">
+		            <button type="submit" class="btn btn-primary btn-block text-white" style="text-align: left; padding-left:1rem;font-size: 1.2rem"> <i class="fa fa-bullseye fa-fw"></i> Gold</button>
+		        </form>
+		        <hr>
+		    </div>
+
+		  <div class="w3-bar-block">
+		    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+		  </div>
+		    <nav class="navbar navbar-light bg-light">
+		      <a class="navbar-brand btn" href="#overview-md" style="text-decoration: none;">Overview</a>
+		      <a class="navbar-brand btn" href="#experts-md" style="text-decoration: none">Experts</a>
+		      <a class="navbar-brand btn" href="#outreach-md" style="text-decoration: none">Outreach</a>
+			  <a class="navbar-brand btn" href="#fda-md" style="text-decoration: none; font-size: 0.9rem">GMO Consideration</a>
+			  <a class="navbar-brand btn" href="#survey-md" style="text-decoration: none">Survey</a>
+			  <a class="navbar-brand btn" href="#integration-md" style="text-decoration: none">Integration</a>
+			  <a class="navbar-brand btn" href="#enterprise-md" style="text-decoration: none; font-size: 0.9rem">Enterprise Outreach</a>
+			  <a class="navbar-brand btn" href="#market-md" style="text-decoration: none; font-size: 0.9rem">Market Analysis</a>
+			  <a class="navbar-brand btn" href="#conclusion-md" style="text-decoration: none;"><i class="fa fa-telegram" aria-hidden="true"></i>&nbsp;Conclusion</a>
+		    </nav>
+		</nav>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+	<div style="margin-left: 180px">
+		<!-- Banner -->
+			<section class="banner full" style="background-image: url(http://2017.igem.org/wiki/images/5/5a/Md-human-practice-test.jpeg); background-size:cover">
+			</section>
+
+		<!-- One -->
+			<section id="overview-md" class="wrapper style2">
+				<div style="margin-left: 20px">
+					<span class="w3-center w3-padding-small w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"></span> </span>
+  					<span class="w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity" style="color: black">Overview</span>
+				<br/><br/>
+		<!-- Box -->
+				<div class="box" style="background-color: rgba(255, 255, 255, 0); margin-right: 50px">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<h4 style="padding-left: 5rem; padding-right: 5rem">
+								"Human Practices is the study of how your work affects the world, and how the world affects your work." — Peter Carr, Director of Judging. What’s Human practice? It is not just a work  to confirm and strengthen what we think is right. Instead, we should learn to share our knowledge with the world. We can’t just instill our personal cognition into others, nor can we blindly believe in whatever others say. All in all, human practice is all about “gain, give and mutual interaction”.
+							</h4>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<img src="http://2017.igem.org/wiki/images/b/b5/Mingdaothewit-17_project_us_world_2.png" width="65%" style="margin-bottom:2rem">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<h4 style="padding-left: 5rem; padding-right: 5rem">
+								First, we build up a system constructed by the three topics below: Project, Us and the World. What we found is that our activities can actually made up a comprehensive interaction (refer to the following picture beside) For example, we “gain” professional suggestions from experts in various fields, which have made us think of repositioning our project; To conduct educating, we “give” what we know to those who are laymen in synthetic biology and sugar controlling. Other examples of give and gain also includes marketing and sponsorships. It is also necessary that we set up mutual pathways for knowledges, which are also known as meetups, collaborations and cross-domain communications. Totaling up all of them, we’ve excellently completed human practice.
+							</h4>
+						</div>
+					</div>
+				</div>
+				</div>
+				<!-- Two -->
+					<section id="experts-md" class="wrapper style3">
+						<div class="inner">
+							<header class="align-center">
+								<p class="w3-center">To achieve our goal, we consult experts in different areas of study</p>
+								<h2>Expert Consultation</h2>
+							</header>
+						</div>
+					</section>
+
+				<!-- START of card section -->
+				<div class="w3-row-padding" style="margin-top: 3rem">
+
+					<div class="w3-third">
+					<div class="w3-card white">
+					  <div class="w3-container" style="background-color:#6a8fc8">
+						<h3 style="color: white">Nephrologist</h3>
+					  </div>
+					  <div class="w3-container">
+						  <img src="http://2017.igem.org/wiki/images/3/39/Mingdaothewit-14_Dr_wu.jpeg" width=100% height="auto" style=" box-shadow: 7px 6px 34px 4px rgba(0,0,0,0.47);">
+					  </div>
+					  <ul class="w3-ul w3-border-top">
+						  <li>
+  						  <h3>Time</h3>
+  						  <h3><strong>7/22</strong></h3>
+  						</li>
+  						<li>
+  						  <h3>Location</h3>
+  						  <h3><strong> Bio-Lab</strong></h3>
+  						</li>
+  						<li>
+  						  <h3>Consultant</h3>
+  						  <h3><strong> Dr. Wu</strong></h3>
+  						</li>
+					  </ul>
+					  <div class="w3-container w3-large" style="background-color:#6a8fc8">
+						  <span class="w3-right text-white">
+							  <button onclick="document.getElementById('nephrologist').style.display='block'" class="w3-button text-white" style="background:none"><i class="fa fa-mouse-pointer" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Learn More</span>
+							 </button>
+						 </span>
+					 </div>
+					 <!-- the first card modal -->
+ 						  <div id="nephrologist" class="w3-modal">
+ 						    <div class="w3-modal-content w3-animate-top w3-card-4">
+ 						      <header class="w3-container w3-teal">
+ 						        <span onclick="document.getElementById('nephrologist').style.display='none'"
+ 						        class="w3-button w3-display-topright">&times;</span>
+ 						        <h2 style="color: white">Nepthrologist</h2>
+ 						      </header>
+ 						      <div class="w3-container">
+								  <div class="row">
+  									<div class="col-md-7 col-sm-7">
+  										<h4 style="padding-left: 5rem; padding-right: 5rem">
+  											Taiwan has the reputation of “the kingdom of Hem dialysis”. Yes, this is apparently not a thing we should be proud of. A huge sum of money is spent on this problem every year. But, you probably don’t know that a huge ratio of these cases are caused by neither drug abuse nor consuming too much salty food. Instead, diabetes is what may leads to kidney diseases. So, we invited Dr. Wu from the division of nephrology to tell us about the negative effects of diabetes. 
+  										</h4>
+  									</div>
+  									<div class="col-md-5 col-sm-5">
+  										<img src="http://2017.igem.org/wiki/images/b/b2/Mingdaojay1020-26.jpeg" width="100%" style="margin-top: 2rem">
+  									</div>
+  								</div>
+  								<div class="row">
+  									<div class="col-md-12 col-sm-12">
+  										<h4 style="padding-left: 5rem; padding-right: 5rem">
+  											 In the interview, he mentioned that due to hyperglycemia, HHNK and DKA, which may cause headache, nausea, or even drive people into coma, is often found in people with diabetes. Furthermore, hyperglycemia can also cause the filtration in the glomerular to accelerate, which leads to its hypertrophy. As the function of kidney is gradually damaged, it can no longer eliminate the deleterious substances from our body. With urea and creatinine surging, a person could eventually end up in renal failure. From above, we can get a conclusion that diabetes is surely a thorny chronic disease that we should be cautious of.
+  										</h4>
+  									</div>
+  								</div>
+								<div class="row">
+  								  <div class="col-md-5 col-sm-5">
+  									  <img src="http://2017.igem.org/wiki/images/0/00/Mingdaojay1020-27.jpeg" width="100%" style="margin-top: 2rem; margin-left: 3rem">
+  								  </div>
+								  <div class="col-md-7 col-sm-7">
+									  <h4 style="padding-left: 5rem; padding-right: 5rem">
+										  Taiwan has the reputation of “the kingdom of Hem dialysis”. Yes, this is apparently not a thing we should be proud of. A huge sum of money is spent on this problem every year. But, you probably don’t know that a huge ratio of these cases are caused by neither drug abuse nor consuming too much salty food. Instead, diabetes is what may leads to kidney diseases. So, we invited Dr. Wu from the division of nephrology to tell us about the negative effects of diabetes. 
+									  </h4>
+								  </div>
+							  </div>
+							  <div class="row">
+								  <div class="col-md-12 col-sm-12">
+									  <h4 style="padding-left: 5rem; padding-right: 5rem">
+										   In the interview, he mentioned that due to hyperglycemia, HHNK and DKA, which may cause headache, nausea, or even drive people into coma, is often found in people with diabetes. Furthermore, hyperglycemia can also cause the filtration in the glomerular to accelerate, which leads to its hypertrophy. As the function of kidney is gradually damaged, it can no longer eliminate the deleterious substances from our body. With urea and creatinine surging, a person could eventually end up in renal failure. From above, we can get a conclusion that diabetes is surely a thorny chronic disease that we should be cautious of.
+									  </h4>
+								  </div>
+							  </div>
+ 						      </div>
+ 						      <footer class="w3-container w3-teal">
+ 						        <p>&nbsp;</p>
+ 						      </footer>
+ 						    </div>
+ 						  </div>
+ 					<!-- the first card modal end -->
+					</div>
+					</div>
+
+					<div class="w3-third">
+					<div class="w3-card white">
+					  <div class="w3-container w3-indigo">
+						<h3 style="color: white">Fitness Coach</h3>
+					  </div>
+					  <div class="w3-container">
+						  <img src="http://2017.igem.org/wiki/images/9/9c/Mingdaojay1020-20.jpeg" width=100% height="auto" style="max-height: 300px; box-shadow: 7px 6px 34px 4px rgba(0,0,0,0.47);">
+					  </div>
+					  <ul class="w3-ul w3-border-top">
+						  <li>
+  						  <h3>Time</h3>
+  						  <h3><strong>7/29</strong></h3>
+  						</li>
+  						<li>
+  						  <h3>Location</h3>
+  						  <h3><strong>Smooth Fitness Studio</strong></h3>
+  						</li>
+  						<li>
+  						  <h3>Consultant</h3>
+  						  <h3><strong>Coach Wei Qian-Fu</strong></h3>
+  						</li>
+					  </ul>
+					  <div class="w3-container w3-indigo w3-large"><span class="w3-right">
+						  <button onclick="document.getElementById('coach').style.display='block'" class="w3-button text-white" style="background: none"><i class="fa fa-mouse-pointer" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Learn More</span>
+						 </button>
+					  </div>
+					  <!-- the second card modal -->
+  						  <div id="coach" class="w3-modal">
+  						    <div class="w3-modal-content w3-animate-top w3-card-4">
+  						      <header class="w3-container w3-teal">
+  						        <span onclick="document.getElementById('coach').style.display='none'"
+  						        class="w3-button w3-display-topright">&times;</span>
+  						        <h2 style="color: white">Coach</h2>
+  						      </header>
+  						      <div class="w3-container">
+
+								 	<nav class="nav nav-tabs" id="myTab" role="tablist">
+					  				  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" style="text-decoration: none; color: blue; font-size: 18px">Content</a>
+					  				  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" style="text-decoration: none; color: blue; font-size: 18px">Record</a>
+					  				</nav>
+					  				<div class="tab-content" id="nav-tabContent">
+					  				  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+										  <div class="row">
+										   <div class="col-md-12 col-sm-12">
+											   <h4 style="padding: 3rem 5rem 0 5rem">
+  										   			After we had a discussion with Dr. Wu, we changed our aim from controlling diabetes to losing weight. Since weight losing is nothing more than controlling the diet and exercising for most people, we soon contacted with a fitness coach and paid a visit to his workshop, so as to learn the relation between them and our project.
+											   </h4>
+										   </div>
+										   <div class="col-md-8 col-sm-8" style="display: block; margin: auto">
+											   <img src="http://2017.igem.org/wiki/images/7/7c/Mingdaojay1020-23.jpeg" width="100%" style="margin-top: 2rem">
+										   </div>
+									   </div>
+									   <div class="row">
+										   <div class="col-md-12 col-sm-12">
+											   <h4 style="padding-left: 5rem; padding-right: 5rem">
+												   While we are conversing with the coach, we had a heart full of doubt: Where’s the dumbbells or treadmills we usually see in a gym? After we consult the coach, he told us that the main point of “fitness” is not focusing on building bulky muscles but living a healthier life. We were confused by the time we heard this statement, thinking that it might not be what we had expected.
+											   </h4>
+										   </div>
+										   <div class="col-md-5 col-sm-5">
+											   <h4 style="padding-left: 5rem;">
+												   However, after about two hours of explanation, it dawned on us that what he said was all about one core concept:  excess is just as bad as deficiency. Training excessively is damage, while no exercise is unhealthy as well; too much intake of sugar is harmful, while too little sugar consumption is even more dangerous.
+											   </h4>
+										   </div>
+										   <div class="col-md-7 col-sm-7" style="display: block; margin: auto">
+											   <img src="http://2017.igem.org/wiki/images/7/71/Mingdaojay1020-22.jpeg" width="80%">
+										   </div>
+										   <div class="col-md-12 col-sm-12">
+											   <h4 style="padding-left: 5rem; padding-right: 5rem">
+											   Similar to what Dr.Wu had told us, knowing how to adjust one’s own physiological stage and managing a balanced diet is the only way to live a healthy life. How wise it is. Perhaps this is the kind of thing we won’t be able to learn from the coach who’s pro in developing six pack abs. In the end of the discussion, he even taught us a breathing method used in training which helps regulate our breathing. To be honest, we had a special experience after today’s visit.
+											   </h4>
+										   </div>
+										   <!-- conclusion -->
+										   <div class="col-md-6 col-sm-6">
+											   <img src="http://2017.igem.org/wiki/images/9/9c/Mingdaojay1020-20.jpeg" width="85%" align="right">
+										   </div>
+										   <div class="col-md-5 col-sm-5">
+											   <h4>
+												   In sum, this interview has surprised us - even ordinary things such as breathing has variations, but also let us learn a lot about regulating daily nutritions. Before finishing, he also suggested us to consult to the nutritionist, assuming that we might receive a different response. However, the two experts made similar proposals in the end, showing us the part our work needs to improve.
+											   </h4>
+										   </div>
+									   </div>
+									  </div>
+					  				  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+										  <div class="row">
+											  <div class="col-md-12 col-sm-12">
+												  <h4 style="padding: 3rem 5rem 0 5rem">
+													   We summarized our project to the fitness instructor. He told us about his work. He has his own workshop, where he focuses on designing lessons, trying ways to stimulate advances in physical function, such as improving the ability of impairment. He said that what he does is absolutely different from those who conduct training for the purpose of body strengthening. 
+												  </h4>
+											  </div>
+											  <div class="col-md-8 col-sm-8" style="display: block; margin: auto">
+												  <img src="http://2017.igem.org/wiki/images/0/0a/Mingdaojay1020-21.jpeg" width="100%" style="margin-top: 2rem">
+											  </div>
+											  <div class="col-md-10 col-sm-10" style="display: block; margin: auto; padding-top:2rem">
+												  <h4><strong>We</strong>: Can we say that, this is similar to what we call OT (occupational therapy)?
+												  Coach: Probably yes. But, I am just a coach for assistant purpose.
+											  	  </h4>
+												  <h4><strong>We</strong>: Will you recommend any kind of health supplements to your clients?
+												  </h4>
+												  <h4><strong>Coach</strong>: No. Due to the differences of individual needs, I think it is more appropriate that doctors do something like that instead of me. But, I can give them advices on what efficacy they may need for their supplements. 
+												  </h4>
+												  <h4><strong>We</strong>: Any examples?
+												  </h4>
+												  <h4><strong>Coach</strong>: Sure. Let me take weight losing. It’s easy to understand that if a person want to lose weight, the amount of calorie he consume must exceed the amount he take in. So, in the initial phase, calorie consumption is what we focus on. As long as he get used to the diet, we started to focus on the nutrients in food. Since too much starch may lead to obesity, we should make a reduction. Lastly, if he can follow all these requirements, we can than adjust his diet into a much healthier one, like, adding more organic food or something. If we ask a client to stick to all these rules at first, we can say that there’s no possibility that his determination will last.
+												  </h4>
+											  </div>
+											  <div class="col-md-8 col-sm-8" style="display: block; margin: auto">
+												  <img src="http://2017.igem.org/wiki/images/d/df/Mingdaojay1020-24.png" width="100%" style="margin-top: 2rem">
+											  </div>
+											  <div class="col-md-10 col-sm-10" style="display: block; margin: auto; padding-top:2rem">
+												  	<h4>
+														<strong>We</strong>: Have you ever seen someone, like, desperately push himself to the limit no matter what it cost, and, just to lose weight?
+													</h4>  
+  										  			<h4>
+														<strong>Coach</strong>: Of course, yes. But, I would like to say that if you only care about your stature, but ignore the true value and purpose of exercising; I will tell the person, I’m sorry, but, I think we may not suit your need, and it will be better for you to look for someone else.
+													</h4>
+  								  					<h4>
+														<strong>We</strong>: So, how do clients get started?
+													</h4>
+  						  							<h4>
+														<strong>Coach</strong>: First, we reach a consensus with our clients. Then, we analyze their current physical conditions. Since we should prevent clients from over exercising, we, have the obligation to remind those who train themselves in rashness of the importance of keeping a regular daily routine. 
+													</h4>
+													<h4>
+														<strong>We</strong>: So, how’s it like to have a “regular daily routine” ?
+													</h4>
+  		  											<h4>
+														<strong>Coach</strong>: Try to avoid overworking. Also, too much sleep is not advisable.
+													</h4> 
+  													<h4>
+														<strong>We</strong>: So, how healthy we get is not in proportion with how much we exercise, right? 
+													</h4>
+  													<h4>
+														<strong>Coach</strong>: Exactly. You shouldn’t do what your body can’t afford just to get a sense of achievement. 
+													</h4>
+  													<h4>
+														<strong>We</strong>: So, in addition to exercising, do you control your diet as well? 
+													</h4>
+  													<h4>
+														<strong>Coach</strong>: Of course, yes. But, we don’t deliberately restrain the appetite, for people drop off easily because of that. 
+													</h4>
+											  </div>
+											  <div class="col-md-9 col-sm-9" style="display: block; margin: auto">
+											  	<img src=" http://2017.igem.org/wiki/images/e/e4/Mingdaojay1020-25.png" width="100%" style="margin-top: 2rem">
+											  </div>
+											  <div class="col-md-10 col-sm-10" style="display: block; margin: auto; padding-top:2rem">
+												  	<h4>
+														<strong>We</strong>: So, according to what you said, do you consider our project beneficial?
+														</h4>
+													<h4>
+														<strong>Coach</strong>: Sure. I can say that it is really an innovative idea. But, what you should know is that the mechanism of sugar controlling in our body is much more delicate than you can imagine. You guys should give an insight into some impact it may bring to, like: Will there be any side effects? Will people be too reliable on it? Will a long term dosing lead to endocrine disorders? These are all what you should be wary of.  
+														</h4>
+													<h4>
+														<strong>We</strong>: Can we lose weight by just stop eating anything? 
+														</h4>
+													<h4>
+														<strong>Coach</strong>: Yes. But, I must say that if you stay in the condition of hunger for too long, the cell in your body may gradually reduce the consumption of energy. Thus, as long as everything is back to normal, your weight will bounce back rapidly. So, to sum up,   how to maintain is far more important, and also, far more difficult.  
+														</h4>
+													<h4>
+														<strong>We</strong>: We’ve heard of some activists on weight losing. They even take methods such as liposuction and gastrectomy. What’s your opinion?
+														</h4>
+													<h4>
+														<strong>Coach</strong>: Fat will still accumulate after liposuction, and gastrectomy is an irreversible harm to our body. To be blunt, I’m on the side of disapproval. 
+														</h4>
+											  </div>
+										  </div> 
+									  </div>
+					  				</div>
+
+
+  						      </div>
+  						      <footer class="w3-container w3-teal">
+  						        <p>&nbsp;</p>
+  						      </footer>
+  						    </div>
+  						  </div>
+  					<!-- the second card modal end -->
+					</div>
+					</div>
+					<!-- the third card -->
+					<div class="w3-third">
+					<div class="w3-card">
+					  <div class="w3-container w3-theme" style="background: #6a8fc8;">
+						<h3 style="color: white">Nutritionist</h3>
+					  </div>
+					  <div class="w3-container">
+					  	<img src="http://2017.igem.org/wiki/images/c/c2/Mingdaojay1020-41.jpeg" width=100% height="auto" style="max-height: 300px; box-shadow: 7px 6px 34px 4px rgba(0,0,0,0.47);">
+					  </div>
+					  <ul class="w3-ul w3-border-top">
+						<li>
+						  <h3>Time</h3>
+						  <h3><strong>9/11</strong></h3>
+						</li>
+						<li>
+						  <h3>Location</h3>
+						  <h3><strong> McDonald's</strong></h3>
+						</li>
+						<li>
+						  <h3>Consultant</h3>
+						  <h3><strong> Nutritionist Liu Guan-Ling</strong></h3>
+						</li>
+					  </ul>
+					  <div class="w3-container w3-theme w3-large" style="background: #6a8fc8;"><span class="w3-right" style="color: white">
+						  <button onclick="document.getElementById('nutritionist').style.display='block'" class="w3-button text-white" style="background: none"><i class="fa fa-mouse-pointer" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Learn More</span>
+						  </button>
+					  </div>
+
+					</div>
+					</div>
+					<!-- the third card modal -->
+						  <div id="nutritionist" class="w3-modal">
+						    <div class="w3-modal-content w3-animate-top w3-card-4">
+						      <header class="w3-container w3-teal">
+						        <span onclick="document.getElementById('nutritionist').style.display='none'"
+						        class="w3-button w3-display-topright">&times;</span>
+						        <h2 style="color: white">Nutritionist</h2>
+						      </header>
+						      <div class="w3-container">
+
+								<div class="row"style="margin-top: 2rem">
+								   <div class="col-md-6 col-sm-6">
+									   <img src="http://2017.igem.org/wiki/images/c/c0/Mingdaojay1020-42.jpeg" width="80%" align="right">
+								   </div>
+ 								   <div class="col-md-6 col-sm-6">
+ 									   <h4 style=" padding-right: 5rem">
+										   <strong>Motivation :</strong>
+										   When visiting the fitness coach, he suggested that we also consult a nutritionist, assuming that the answers agreed by different professions may be somewhat different. Based on the recommendations of the fitness coach, we found a nutritionist from Cheng Ching Hospital, hoping to get the answer that is beneficial to our project.
+ 									   </h4>
+ 								   </div>
+ 							   	</div>
+								<div class="row"style="margin-top: 2rem">
+								   <div class="col-md-6 col-sm-6">
+									   <h4 style="padding-left: 5rem; padding-right: 2rem">
+										   <strong>Highlight :</strong>
+										   <ol>
+												<li> Processed sugar intake accounted for a person's daily calories required 10% </li>
+												<li> Excessive diet can hurt the body</li>
+												<li> The amount of calories required for a day minus about 400 calories is the most appropriate calorie needed for dieting</li>
+												<li> Fat is also one of the main causes of obesity</li>
+												<li> Note the control of blood sugar</li>
+											</ol>
+									   </h4>
+								   </div>
+								   <div class="col-md-6 col-sm-6">
+									   <img src="http://2017.igem.org/wiki/images/c/c2/Mingdaojay1020-40.jpeg" width="70%" align="left">
+								   </div>
+								</div>
+ 							   <div class="row">
+ 								   <div class="col-md-12 col-sm-12">
+ 									   <h4 style="padding-left: 5rem; padding-right: 5rem">
+										   <strong>Conclusion :<br></strong>
+										   	After this interview, we found that the point of discussion nutritionist and fitness coach stand are similar in many ways : for instance, going on diet should not be excessive, controlling  food and drink is important. These are complementary to what we want to do. This interview also let us adjust our project in order to support the public in pursue of a healthy and better life.
+										</h4>
+ 								   </div>
+ 							   </div>
+						      </div>
+						      <footer class="w3-container w3-teal">
+						        <p>&nbsp;</p>
+						      </footer>
+						    </div>
+						  </div>
+					<!-- the third card modal end -->
+					<!-- the third card end -->
+					</div>
+				<!-- END of card section -->
+
+			</section>
+
+		<!--	Card section start	-->
+			<section>
+				<div class="w3-row-padding w3-padding-64" id="outreach-md" style="background: #333333">
+					<div class="inner">
+						<header class="align-center">
+							<h2 style="color: white">Outreach</h2>
+							<h4>Science, not only the lab, but into into the public</h4>
+							<hr>
+						</header>
+					</div>
+			<!--	Quarter 1	-->
+				<div class="w3-quarter" style="color: white">
+					<div class="w3-card-2 w3-white">
+						  <img src="http://2017.igem.org/wiki/images/1/15/Mingdaojay1020-31.jpeg" alt="Banner 2" style="width:100%">
+						  <div class="w3-container">
+						  <h3>The Poll</h3>
+						  <h4>Time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9/16</h4>
+						  <h4>Location:<br>&nbsp;&nbsp;&nbsp;Taichung City</h4>
+						  <h4>Participants:<br> The public</h4>
+						  <h3 style="text-align: center"><i>Walk into the public!</i></h3>
+							<div class="w3-container">
+
+							<button onclick="document.getElementById('poll').style.display='block'" class="w3-button w3-black" style="width: 100%">Learn More</button>
+
+							<!-- the third card modal -->
+								  <div id="poll" class="w3-modal">
+								    <div class="w3-modal-content w3-animate-top w3-card-4">
+								      <header class="w3-container w3-indigo">
+								        <span onclick="document.getElementById('poll').style.display='none'"
+								        class="w3-button w3-display-topright">&times;</span>
+								        <h2 style="color: white">The Poll</h2>
+								      </header>
+								      <div class="w3-container">
+										  <nav class="nav nav-tabs" id="myTab" role="tablist">
+										  	<a class="nav-item nav-link active" id="nav-contentpoll-tab" data-toggle="tab" href="#nav-contentpoll" role="tab" aria-controls="nav-contentpoll" aria-selected="true" style="text-decoration: none; color: blue; font-size: 18px">Content</a>
+										  	<a class="nav-item nav-link" id="nav-recordpoll-tab" data-toggle="tab" href="#nav-recordpoll" role="tab" aria-controls="nav-recordpoll" aria-selected="false" style="text-decoration: none; color: blue; font-size: 18px">Map</a>
+									  	  </nav>
+										  <div class="tab-content" id="nav-tabContent">
+											<div class="tab-pane fade show active" id="nav-contentpoll" role="tabpanel" aria-labelledby="nav-contentpoll-tab">
+												<div class="row"style="margin-top: 2rem">
+												   <div class="col-md-6 col-sm-6">
+													   <img src="http://2017.igem.org/wiki/images/7/74/Mingdaojay1020-29.jpeg" width="80%" align="right">
+												   </div>
+												   <div class="col-md-6 col-sm-6">
+													   <h4 style=" padding-right: 5rem">
+														   <strong>The Poll :</strong>
+														   Although we are in such an era that information technology develops rapidly, the interaction between person and person is still very important.  Owing to this, we decide to make a poll and ask them people questions. During this activity, we met different kinds of people, and most of them were curious about our project and its procedure, some of them even asked whether this product will go public or not. 
+													   </h4>
+												   </div>
+												</div>
+												<div class="row"style="margin-top: 2rem">
+												   <div class="col-md-6 col-sm-6">
+													   <h4 style="padding-left: 5rem; padding-right: 2rem">
+														  What impressed us the most is that we met our seniors when he was giving out free hugs. He gave each of us a hug, which is an encouragement to us. The mutual aid like this is the value that we want to put stress on and convey.) Although there were some people who didn’t coordinate, instead of feeling upset, we remained optimistic and searched for another subject. In the end, we got nearly a hundred opinions on our project. This not only made our data more detailed, but also gave us the power to move forward.
+													   </h4>
+												   </div>
+												   <div class="col-md-6 col-sm-6">
+													   <img src="http://2017.igem.org/wiki/images/3/39/Mingdaojay1020-30.jpeg" width="100%" align="left">
+												   </div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="nav-recordpoll" role="tabpanel" aria-labelledby="nav-recordpoll-tab">
+												<div class="row">
+													<div class="col-md-2 col-sm-2">&nbsp;</div>
+													<div class="col-md-8 col-sm-8">
+														<img src="http://2017.igem.org/wiki/images/2/24/Mingdaojay1020-33.jpeg" width="100%" align="middle">
+													</div>
+													<div class="col-md-2 col-sm-2">&nbsp;</div>
+													<div class="col-md-10 col-sm-10" style="display: block; margin: auto">
+														<h4>We choose Taichung Train Station, National Science Museum, CMP block museum of arts, Taichung City Hall, Shin Kong Mitsukoshi, Maple Garden, and National Taichung Theater to make the poll.</h4>
+													</div>
+												</div>
+											</div>
+										  </div>
+									</div>
+
+						  		<footer class="w3-container w3-indigo">
+									     <p>&nbsp;</p>
+					    		</footer>
+						  		</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--	Quarter 2 / [Card] first one-->
+				<div class="w3-quarter">
+					<div class="w3-card-2 w3-white">
+						  <img src="http://2017.igem.org/wiki/images/a/a4/Mingdaojay1020-12.jpeg" alt="Banner 2" style="width:100%">
+						  <div class="w3-container">
+						  <h3>S&amp;T Month</h3>
+						  <h4>Time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5/22, 23, 25</h4>
+						  <h4>Location:<br>&nbsp;&nbsp;&nbsp;Lecture Hall &amp; Bio-Lab</h4>
+						  <h4>Participants:<br> Mingdao students</h4>
+						  <h3 style="text-align: center"><i>iGEM in Campus!</i></h3>
+				 	   		<div class="w3-container">
+
+								<button onclick="document.getElementById('SandT').style.display='block'" class="w3-button w3-black" style="width: 100%">Learn More</button>
+
+								<!-- the third card modal -->
+									  <div id="SandT" class="w3-modal">
+										<div class="w3-modal-content w3-animate-top w3-card-4">
+										  <header class="w3-container w3-indigo">
+											<span onclick="document.getElementById('SandT').style.display='none'"
+											class="w3-button w3-display-topright">&times;</span>
+											<h2 style="color: white">S&amp;T month</h2>
+										  </header>
+										  <div class="w3-container">
+
+													<div class="row"style="margin-top: 2rem">
+													   <div class="col-md-6 col-sm-6">
+														   <img src="http://2017.igem.org/wiki/images/9/96/Mingdaojay1020-14.jpeg" width="80%" align="right">
+													   </div>
+													   <div class="col-md-6 col-sm-6">
+														   <h4 style=" padding-right: 5rem">
+															  <strong>S&amp;T Month</strong> is a tech activity hold by Mingdao annually. In the period time of five weeks, teachers and students trained in Physics, Chemical, Earth science, Biology and iGEM lead the other students to have an inside look into the world of science. 2017 Mingdao Team arranged two days of experiment and one day of a lecture. It is because iGEM still remains unfamiliar to them that the registration is quite enthusiastic. Such an optimistic start it is our campaign on iGEM has.  
+														   </h4>
+													   </div>
+													</div>
+													<div class="row"style="margin-top: 2rem">
+														<div class="col-md-12 col-sm-12">
+															<h4 style="width: 85%; display: block; margin: auto"> 
+																The first experiment is plasmid DNA extraction. After explaining the concept of it, we divided them into six groups, and chose a leader from our team members for every group. Most of the students had never used pipette before, which made them tense but eager to try. After all, what we students usually use are always droppers, beakers…and so on. 
+																<br>
+															 </h4>
+														</div>
+													   <div class="col-md-6 col-sm-6">
+														   <h4 style="padding-left: 5rem; padding-right: 2rem">
+															    During the experiment day, we showed them our newly-opened-up lab and had them take turn operating at the same time. They all felt it cool and funny to extract the plasmid, and showed more interest in the experiment, electrophoresis, the next day. Not only did they ask questions enthusiastically, but they were more skilled because of the practices the day before.
+														   </h4>
+													   </div>
+													   <div class="col-md-6 col-sm-6">
+														   <img src="http://2017.igem.org/wiki/images/e/e4/Mingdaojay1020-13.jpeg" width="80%" align="left">
+													   </div>
+													</div>
+													<div class="row"style="margin-top: 2rem">
+													   <div class="col-md-6 col-sm-6">
+														   <img src="http://2017.igem.org/wiki/images/3/39/Mingdaojay1020-15.jpeg" width="80%" align="right">
+													   </div>
+													   <div class="col-md-6 col-sm-6">
+														   <h4 style=" padding-right: 5rem">
+															  As for the lecture on the third day, we told them more about what exactly Molecular biology is, and we invited a senior who had engaged in iGEM last year shared his experience and what he learned in iGEM. 
+														   </h4>
+													   </div>
+													   <div class="col-md-10 col-sm-10" style="display: block; margin: auto">
+														   <h4>
+																This activity gives middle school students a basic idea of Molecular biology. Moreover, it helps increase iGEM’s popularity as well. It is really killing two birds with one stone. 
+															</h4>
+												   		</div>
+													</div>
+										</div>
+
+
+									<footer class="w3-container w3-indigo">
+											 <p>&nbsp;</p>
+									</footer>
+								</div>
+								</div>
+							<!-- the third card modal end -->
+							  </div>
+						  </div>
+				  	</div>
+				</div>
+
+		<!--Second card section start-->
+			<div class="w3-quarter">
+					<div class="w3-card-2 w3-white">
+						  <img src="http://2017.igem.org/wiki/images/0/06/Mingdaojay1020-8.jpeg" alt="Banner 2" style="width:100%">
+						  <div class="w3-container">
+						  <h3>Elementary School</h3>
+						  <h4>Time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9/22</h4>
+						  <h4>Location:<br></h4><h5>Chiao-Jen Elementary School</h5>
+						  <h4>Participants:<br> Kids</h4>
+						  <h3 style="text-align: center"><i>Sow Seed of Science</i></h3>
+				 	   		<div class="w3-container">
+
+							<button onclick="document.getElementById('ele').style.display='block'" class="w3-button w3-black" style="width: 100%">Learn More</button>
+							<!-- the third card modal -->
+								  <div id="ele" class="w3-modal">
+									<div class="w3-modal-content w3-animate-top w3-card-4">
+									  <header class="w3-container w3-indigo">
+										<span onclick="document.getElementById('ele').style.display='none'"
+										class="w3-button w3-display-topright">&times;</span>
+										<h2 style="color: white">Elementary School Promotion</h2>
+									  </header>
+									  <div class="w3-container">
+										  <div class="row"style="margin-top: 2rem">
+										     <div class="col-md-6 col-sm-6">
+										  	   <img src="http://2017.igem.org/wiki/images/8/8c/Mingdaojay1020-11.png" width="80%" align="right">
+										     </div>
+										     <div class="col-md-6 col-sm-6">
+										  	   <h4 style="padding-right: 5rem; display: block; margin: auto">
+												   <br>
+   									   				After S&amp;T Month, we decided to extend our educate range to elementary school students. To let more people know the spirit of iGEM, we went to an elementary school, Chiao-Jen, to teach students there some basic concept of synthetic biology and introduce iGEM to them.
+										  	   </h4>
+										     </div>
+										  </div>
+										  <div class="row"style="margin-top: 2rem">
+										     <div class="col-md-6 col-sm-6">
+										  	   <h4 style="padding-left: 5rem; padding-right: 2rem">
+										  		   We prepared a game for them and a bag of candy as reward, making it easier to understand what we want to express. Every team had one million dollars to invest in the genetically modified product. In the meanwhile, we mixed some fundamental idea of the synthetic biology into the game. Then, we explained the relationship between DNA and gene briefly. To our surprise, there was even a little boy asking us our opinion on GMO foods! 
+										  	   </h4>
+										     </div>
+										     <div class="col-md-6 col-sm-6">
+										  	   <img src="http://2017.igem.org/wiki/images/b/b1/Mingdaojay1020-7.png" width="80%" align="left">
+										     </div>
+										  </div>
+										  <div class="row"style="margin-top: 2rem">
+ 										     <div class="col-md-10 col-sm-10" style="display: block; margin: auto">
+ 										  	   <h4>
+ 										  			In this activity, we find It is the passionate interaction students react to you that what the most enjoyable moment of teaching is.  It was their passionate participation that made this activity succeed.
+ 										  		</h4>
+ 										  	</div>
+										     <div class="col-md-6 col-sm-6">
+										  	   <img src="http://2017.igem.org/wiki/images/f/f7/Mingdaojay1020-10.jpeg" width="80%" align="right">
+										     </div>
+										     <div class="col-md-6 col-sm-6">
+    										  	   <img src="http://2017.igem.org/wiki/images/2/24/Mingdaojay1020-9.jpeg" width="80%" align="left">
+										     </div>
+										  </div>
+									  </div>
+									  <footer class="w3-container w3-indigo">
+										<p>&nbsp;</p>
+									  </footer>
+									</div>
+								  </div>
+							<!-- the third card modal end -->
+							  </div>
+						  </div>
+				  	</div>
+				</div>
+
+		<!--Third card section-->
+					<div class="w3-quarter">
+						<div class="w3-card-2 w3-white">
+						  <img src="http://2017.igem.org/wiki/images/0/00/Mingdaojay1020-36.png" alt="Monterosso" style="width:100%">
+						  <div class="w3-container">
+							<h3>Drink Sampling</h3>
+							<h4>Time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/3</h4>
+							<h4>Location: <br></h4><h5>Mingdao High School</h5>
+							<h4>Participants:<br></h4><h5>Mingdao staff and students</h5>
+							<h3 style="text-align: center"><i>Just Drink It!</i></h3>
+							<div class="w3-container">
+
+							<button onclick="document.getElementById('drink').style.display='block'" class="w3-button w3-black" style="width: 100%">Learn More</button>
+
+							<!-- the third card modal -->
+								  <div id="drink" class="w3-modal">
+								    <div class="w3-modal-content w3-animate-top w3-card-4">
+								      <header class="w3-container w3-indigo">
+								        <span onclick="document.getElementById('drink').style.display='none'"
+								        class="w3-button w3-display-topright">&times;</span>
+								        <h2 style="color: white">Drink Sampling</h2>
+								      </header>
+								      <div class="w3-container">
+										  <nav class="nav nav-tabs" id="myTab" role="tablist">
+										  	<a class="nav-item nav-link active" id="nav-contentdrink-tab" data-toggle="tab" href="#nav-contentdrink" role="tab" aria-controls="nav-contentdrink" aria-selected="true" style="text-decoration: none; color: blue; font-size: 18px">Content</a>
+										  	<a class="nav-item nav-link" id="nav-recorddrink-tab" data-toggle="tab" href="#nav-recorddrink" role="tab" aria-controls="nav-recorddrink" aria-selected="false" style="text-decoration: none; color: blue; font-size: 18px">Opinion</a>
+									  	  </nav>
+										  <div class="tab-content" id="nav-tabContent">
+											<div class="tab-pane fade show active" id="nav-contentdrink" role="tabpanel" aria-labelledby="nav-contentdrink-tab">
+												<div class="row"style="margin-top: 2rem">
+	  										     <div class="col-md-6 col-sm-6">
+	  										  	   <img src="http://2017.igem.org/wiki/images/c/c7/Mingdaojay1020-38.jpeg" width="90%" align="right">
+	  										     </div>
+	  										     <div class="col-md-6 col-sm-6">
+	  										  	   <h4 style="padding-right: 5rem; display: block; margin: auto">
+	  												   <br><br>
+													   In order to know whether sweet foods are more favored by the public, we held an event in school, called “Drink sampling”. 
+	  										  	   </h4>
+	  										     </div>
+												 <div class="col-md-10 col-sm-10" style="display: block; margin: auto">
+													 <h4>
+														 <br>
+														 We made the statistic this way: We offered both sugar-free and sugary beverages. There were buckets placed beside each beverage pail. First, the participants were given two cups of drinks from each pail. They were asked to decide which one they like, and toss both of their cups into the correspondent bucket. At last, we sum up the cups in each bucket to find out the result.
+													 </h4>
+												 </div>
+	  										  </div>
+	  										  <div class="row"style="margin-top: 2rem">
+	  										     <div class="col-md-6 col-sm-6">
+	  										  	   <h4 style="padding-left: 5rem; padding-right: 2rem">
+	  										  		     There are also games to attract more people. It’s a shame that we weren’t able to elaborate the process of our project to every participant due to the chaos, but, it is sure that we’ve not only increased public’s attention on both our project and IGEM but also successfully introduced more people into the domain of gene engineering. 
+	  										  	   </h4>
+	  										     </div>
+	  										     <div class="col-md-6 col-sm-6">
+	  										  	   <img src="http://2017.igem.org/wiki/images/d/d2/Mingdaojay1020-39.jpeg" width="90%" align="left">
+	  										     </div>
+	  										  </div>
+	  										  <div class="row"style="margin-top: 2rem">
+
+	  										     <div class="col-md-6 col-sm-6">
+	  										  	   <h4 style="text-align: center; vertical-align: middle">
+													   <br><br><br>
+													   Here's the result:
+												   </h4>
+	  										     </div>
+	  										     <div class="col-md-6 col-sm-6">
+	      										  	   <img src="http://2017.igem.org/wiki/images/2/2e/Mingdaojay1020-34.jpeg" width="90%" align="left">
+	  										     </div>
+	  										  </div>
+											</div>
+											<div class="tab-pane fade" id="nav-recorddrink" role="tabpanel" aria-labelledby="nav-recorddrink-tab">
+												<div class="row">
+													<div class="col-md-10 col-sm-10" style="display: block; margin: auto">
+														<h3>
+															<strong>Here are the two opinions after the events :</strong>
+														</h3>
+														<h4>
+															<blockquote>Student A :<br>
+															This time, the member of Mingdao iGEM 2017 hold a activity - drink sampling, which done the survey and the endorsement at the same time. I think the activity is great because the main goal of iGEM is to satisfied people's requirements after finding it, and the objective of genetic engineering is to make people's life more convenient. By the way, the drink taste better with sugar in most people's opinion.
+															</blockquote>
+														</h4>
+														<img src="http://2017.igem.org/wiki/images/2/25/Mingdaojay1020-35.png" width="80%" align="middle">
+														<br>
+													</div>
+													<div class="col-md-10 col-sm-10" style="display: block; margin: auto">
+
+														<h4>
+															<blockquote>Student B :<br>
+																Although I’m not one of the members of the IGEM team, I still learn a lot from the course concerning this project. During the preparation, I saw some previous souvenir, which makes me wonder what kind of surprise they will bring us this time. First, they asked us to drink some beverages. Some were normal and some were sugar-free. This really confused me. Then, they asked us which one we preferred. I thought that they were doing some research to study the dietary habit of Mingdao students. Though didn’t participate in the game they play later on, I could surely feel the hard work they put into carrying out this project. You guys really did a good job. I sincerely hope that this activity can benefit your experiment. But, I suggest that next time the activity could be more simplified, or you can try walking instead of standing at a particular place! 
+															</blockquote>
+														</h4>
+														<img src="http://2017.igem.org/wiki/images/7/7c/Mingdaojay1020-37.jpeg" width="80%" align="middle">
+													</div>
+												</div>
+											</div>
+										  </div>
+									</div>
+
+						  		<footer class="w3-container w3-indigo">
+									     <p>&nbsp;</p>
+					    		</footer>
+						  		</div>
+							</div>
+						</div>
+						  </div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+
+
+
+		<!--Copy of section 1-->
+
+
+
+		<!-- Three -->
+			<section id="fda-md" class="wrapper style2">
+				<div class="inner">
+					<!--Column one-->
+				  	<div>
+				  		<div class="w3-row" style="width: 80%; margin-left:30px; padding:30px">
+					  <div class="w3-third w3-container" style="border-right: 10px solid #383838">
+						  <img src="http://2017.igem.org/wiki/images/e/e4/Mingdaojay1020-2.jpeg" width=100% height=auto style="max-height: 400px; border-radius: 20px;box-shadow: 7px 6px 34px 4px rgba(0,0,0,0.47)">
+					  </div>
+					  <div class="w3-twothird w3-container" style="padding-left: 40px">
+						  <div style="padding-left: 8rem">
+							  <br>
+							  <h3>Food and Drug Administration</h3>
+							  <h4>Time : 9/27</h4>
+							  <h4>Location : TFDA Office Building</h4>
+							  <h4>Participant : Section Manager Zhou </h4>
+							  <h4></h4>
+						  </div>
+					  </div>
+					</div>
+					<br>
+					<!--Column two-->
+					<div class="w3-row" style="width: 80%; margin-left:50px">
+					  <div class="w3-twothird w3-container" style="padding-left: 40px;">
+						  <h3>Food Industry Research and Development Institute</h3>
+						  <h4>Time : 9/29</h4>
+						  <h4>Location : FIRDI Research Building</h4>
+						  <h4>Participant : Doctor Zhu Wen-Shen </h4>
+					  </div>
+					  <div class="w3-third w3-container" style="border-left: 10px solid #5CBAB3">
+						  <img src="http://2017.igem.org/wiki/images/9/9a/Mingdaojay1020-17.jpeg" width=100% height=auto style="max-height: 400px; border-radius: 20px;box-shadow: 7px 6px 34px 4px rgba(0,0,0,0.47)">
+					  </div>
+					</div>
+
+				  	</div>
+				</div>
+			</section>
+
+				<section id="expert" class="wrapper style2">
+
+							<div class="w3-row-padding" id="work" style="background: #333333;">
+
+									<nav class="nav nav-tabs" style="padding-top:3rem"id="myTab" role="tablist">
+										  <a class="nav-item nav-link active" id="nav-test1-tab" data-toggle="tab" href="#nav-test1" role="tab" aria-controls="nav-test1" aria-selected="true" style="text-decoration: none; color: blue; font-size: 18px">FDA</a>
+										  <a class="nav-item nav-link" id="nav-test3-tab" data-toggle="tab" href="#nav-test3" role="tab" aria-controls="nav-test3" aria-selected="false" style="text-decoration: none; color: blue; font-size: 18px">FDA [Record]</a>
+										  <a class="nav-item nav-link" id="nav-test2-tab" data-toggle="tab" href="#nav-test2" role="tab" aria-controls="nav-test2" aria-selected="false" style="text-decoration: none; color: blue; font-size: 18px">FIRDI</a>
+									</nav>
+									<div class="tab-content" id="nav-tabContent">
+									  <div class="tab-pane fade show active" id="nav-test1" role="tabpanel" aria-labelledby="nav-test1-tab">
+										  <!-- Discussion Section -->
+										  <div class="row" style="margin-top: 3rem; margin-bottom: 3rem">
+										  		<div class="col-md-10 col-sm-12" style="display: block; margin: auto">
+										  			<div class="card mb-3 bg-primary">
+										  			  <div class="card-header text-center"><strong style="color: #fff; letter-spacing:0.5rem;">(FDA) Food and Drug Administration</strong></div>
+										  			  <div class="card-body bg-light">
+										  				<br>
+														<div class="row"style="margin-top: 2rem">
+														   <div class="col-md-6 col-sm-6">
+															   <img src="http://2017.igem.org/wiki/images/6/6c/Mingdaojay1020-6.png" width="80%" align="right">
+														   </div>
+														   <div class="col-md-6 col-sm-6">
+															   <h3 style=" padding-right: 5rem"><strong>Introduction</strong><br></h3>
+															   <h4 >
+																  FDA(Food and Drug Administration) is a govenment institution. They’re responsible for the management and supervision of commercialized food and medicines. They aim to intensify the regulation and risk assessment for food, drugs, emerging technologies and cosmetics. Also, they strive to develop core examining technology to create a safe environment for customers. You can say that FDA is the goalkeeper of people’s dieting.
+															   </h4>
+														   </div>
+														</div>
+														<div class="row"style="margin-top: 2rem">
+															<div class="col-md-12 col-sm-12">
+																<h4 style="width: 85%; display: block; margin: auto"> 
+																	The first experiment is plasmid DNA extraction. After explaining the concept of it, we divided them into six groups, and chose a leader from our team members for every group. Most of the students had never used pipette before, which made them tense but eager to try. After all, what we students usually use are always droppers, beakers…and so on. 
+																	<br>
+																 </h4>
+															</div>
+															<div class="col-md-6 col-sm-6">
+																<br><br>
+															   <h3 style="padding-left: 5rem; padding-right: 2rem"><strong>Highlight :</strong></h3>
+ 															   <h5 style="padding-left: 5rem; padding-right: 2rem">
+
+ 																   <ol>
+ 																		<li> Based on the reference from the WHO, the amount of calorie we consume from refined sugar should not exceed 10% of daily sugar intake.</li>
+ 																		<li>Refined sugar added in items that can be called “heath food” should not exceed 25 grams, which is half of daily sugar intake for adults. Also, items with more than 50/3 grams of refined sugar should be labeled.</li>
+ 																		<li>  If a product is only to be positioned to a kind of common food, it won’t be required to pass any examination procedures. But, if it is to be a health food warranted by the government, it is necessary that you pass the inspections on food additions and ingredients.</li>
+ 																		<li> The list of food additions that could be used is now available on the internet. Manufactures are required to hand in their examination result themselves.</li>
+ 																		<li> The reason why GMO products do not prevail in Taiwan is not related to the regulations. Governing ministries will only require GMO products to be labeled because some people is still suspicious about the safety problems. </li>
+																		<li>If after 5 years, a new regulation is enacted, and the standard is adjusted, we will examine the product with the new standard again.</li>
+																		<li>Before commercializing, a product could go through either human clinical trial or animal study. </li>
+																		<li> There is something needed if a product are to be commercialized:<br>
+																			(a.)&nbsp;&nbsp;&nbsp; The effect of the product must be testified
+																			<br>
+																			(b.)&nbsp;&nbsp;&nbsp; Descriptive data about:
+																			<br>
+																			- The bacterial strain used<br>
+																			- How it was grown and preserved <br>
+																			- How its DNA strand in reconstructed <br>
+																			- Whether any toxic or allergic reaction is found
+																		</li>
+ 																	</ol>
+ 															   </h5>
+ 														   </div>
+														   <div class="col-md-6 col-sm-6">
+															   <img src="http://2017.igem.org/wiki/images/d/d2/Mingdaojay1020-1.jpeg" width="80%" align="left">
+															   <br>
+															   <img src="http://2017.igem.org/wiki/images/f/f3/Mingdaojay1020-4.jpeg" width="80%" align="left">
+															   <br>
+															   <img src="http://2017.igem.org/wiki/images/6/6a/Mingdaojay1020-5.jpeg" width="80%" align="left">
+															   <!-- Discussion Section -->
+															   <div class="w3-row-padding" id="work">
+																	   <div class="row" style="margin-top: 3rem; margin-bottom: 3rem">
+																			   <div class="col-md-10 col-sm-10">
+																				   <div class="card mb-3 bg-primary">
+																					 <div class="card-header text-center"><strong style="color: #fff; letter-spacing:0.5rem;">Conclusion</strong></div>
+																					 <div class="card-body bg-light">
+																					   <br>
+
+																					   <h4>
+																						   As students being unfamiliar with the procedure of law, we understood the inspection standard of laws about health food and GM food after interviewing the section manager, Mr. Chou, which gave us a new angle of sight to reexamine the position of our product. </h4>
+																					 </div>
+																				   </div>
+																			   </div>
+																	   </div>
+															   </div>
+															   <!-- Discussion Section END -->
+														   </div>
+														</div>
+										  			  </div>
+										  			</div>
+										  		</div>
+										  	</div>
+										  <!-- Discussion Section END -->
+									  </div>
+									  <div class="tab-pane fade" id="nav-test2" role="tabpanel" aria-labelledby="nav-test2-tab">
+										  <!-- Discussion Section -->
+										  <div class="row" style="margin-top: 3rem; margin-bottom: 3rem">
+										  		<div class="col-md-10 col-sm-12" style="display: block; margin: auto">
+										  			<div class="card mb-3 bg-primary">
+										  			  <div class="card-header text-center"><strong style="color: #fff; letter-spacing:0.5rem;">FIRDI</strong></div>
+										  			  <div class="card-body bg-light">
+										  				<br>
+														<div class="row">
+															<div class="col-md-12 col-sm-12">
+															<h3 style=" padding-right: 5rem"><strong>Introduction </strong><br></h3>
+																<h4>
+																	The Food Industry Research and Development Institute (FIRDI)is a non-profit research institution in Taiwan. Established in 1965, the main work includes product development, biological resources preservation (gene bank for instance), biological inspection (such as paternity tests).In addition, it also has a section to store umbilical cord blood.
+																</h4>
+															<h3 style=" padding-right: 5rem"><strong>Motivation </strong><br></h3>
+																<h4>
+																	During our last time’s meet-up with NCTU, we told them our plan to consult FDA about Lactobacillus manufacturing. Professor Chen, the leading professor of NCTU IGEM team, said that FDA is an institute offering expertise related to regulations and examination processes. He suggested that we may get what we need from FIRDI (Food Industry Research and Development Institute). After doing some researches and preparations, we successfully reached Dr. Chu in FIRDI. 
+																</h4>
+														   </div>
+														   <div class="col-md-6 col-sm-6">
+															   <h3><b>Highlight :</b></h3>
+															   <h4>
+																   <strong><br><br>The above are some advice he gave us:</strong>
+																   <ol>
+																		<li> You would do well to use E. coli without a plasmid.</li>
+																		<li> Make sure whether E. coli is able to survive in the intestine.</li>
+																		<li> Remain balanced nutrients when growing lactobacillus instead of just adding sugar. </li>
+																	</ol>
+															   </h4>
+														   </div>
+														   <div class="col-md-5 col-sm-5">
+															   <img src="http://2017.igem.org/wiki/images/d/db/Mingdaojay1020-18.jpeg" width="100%">
+														   </div>
+
+														   <div class="col-md-6 col-sm-6">
+															   <img src="http://2017.igem.org/wiki/images/c/c6/Mingdaojay1020-16.jpeg" width="90%" align="right">
+														   </div>
+														   <div class="col-md-6 col-sm-6">
+															   <h3 style=" padding-right: 5rem; padding-top: 2rem"><strong>Conclusion </strong><br></h3>
+   																<h4>
+																	After Doctor Zhu’s detailed introduction, we found that it seems too late for us to know what FIRDI is. We solved the difficulties we faced in our experiment in the end, but if we had discussed with Doctor Zhu earlier, the progress of our experiment might have been faster and more efficient. Thanks to this interview, we realized our insufficient, knowing we still have a lot to improve as well. Here, we appreciate all the instructions Doctor Zhu gave us and professor Chen for recommending us visit FIRDI.    
+   																</h4>
+														   </div>
+														</div>
+										  			  </div>
+										  			</div>
+										  		</div>
+										  	</div>
+										  <!-- Discussion Section END -->
+									  </div>
+									  <div class="tab-pane fade" id="nav-test3" role="tabpanel" aria-labelledby="nav-test3-tab">
+										  <!-- Discussion Section -->
+										  <div class="row" style="margin-top: 3rem; margin-bottom: 3rem">
+										  		<div class="col-md-10 col-sm-12" style="display: block; margin: auto">
+										  			<div class="card mb-3 bg-primary">
+										  			  <div class="card-header text-center"><strong style="color: #fff; letter-spacing:0.5rem;">FDA - Record</strong></div>
+										  			  <div class="card-body bg-light">
+										  				<br>
+														<div class="row"style="margin-top: 2rem">
+															<div class="col-md-12 col-sm-12">
+																<h3 style=" padding-right: 5rem"><strong>Records </strong><br></h3>
+ 																	<h4>
+																		<b>We:</b> We want to know the current situation of the obesity problem in Taiwan.
+																	</h4>
+ 																	<h4>
+																		<b>FDA</b>: I suppose the question could be more probably answered by the Health Promotion Administration. The point is that the public shall be more aware of the negative effects of consuming too much sugar. Therefore, we have started to take notice of the amount of refined sugar consist in health supplements six years ago. In order to avoid people who aim to have a healthy life from consuming too much sugar, we have required more than 30 manufacturers to reduce the amount of sugar added to their products. 
+																	</h4>
+ 														   </div>
+														   <div class="col-md-6 col-sm-6">
+															   <img src="http://2017.igem.org/wiki/images/3/3e/Mingdaojay1020-44.jpeg" width="100%" align="right">
+														   </div>
+														   <div class="col-md-6 col-sm-6">
+															   <h4 >
+																   	<b>We: </b>So, what’s the point of regulating calorie from refined to 10% of daily sugar intake?
+																</h4>
+																<h4>
+ 															   		<b>FDA:</b> The institution is based on the reference from WHO. For we normally eat many other kinds of food every day, we regulate that refined sugar added in items that can be called “heath food” should not exceed 50 grams, which is half of daily sugar intake for adults. Also, if a product contains over 1/3 of the limited amount mentioned, it should be labeled. 
+
+															   </h4>
+														   </div>
+														   <div class="col-md-12 col-sm-12">
+															   <h4 style="margin-top: 3rem">
+	   															<b>We: </b>What examination do we need to go through if we are to commercialize our product? 
+	   														</h4>
+	   														<h4>
+	   															<b>FDA:</b> If it is positioned to a kind of common food, it won’t be required to pass any examination procedures. But, if you are to make it a health food warranted by the government, it is necessary that you pass the inspections on food additions and ingredients. The list of ingredients that could be added is now available on the internet. Manufactures are required to hand in their examine result themselves. 
+	   														</h4>
+														   </div>
+														   <div class="col-md-6 col-sm-6">
+   																<h4>
+   																 <b>We: </b>If we are now planning to quantify our products in the form of pills, do they have to be examined?
+   															 	</h4>
+   															 	<h4>
+   																 <b>FDA:</b> Sure. Everything should stick to the Standards for Specification, Scope, Application and Limitation of Food Additives.
+   																</h4>
+																<h4>
+   																 <b>We: </b>Is there now any regulation related to GMO products?
+   															 	</h4>
+   															 	<h4>
+   																 <b>FDA:</b> For GMO products are generally related to GMO plants, there is still no fine institution for GMO microorganisms. Moreover, we have not yet received any application for this. But, if this really happen, we will ask the applicants to hand in the microorganism’s DNA strands they use. We will test whether any toxic substances or allergens is produced. 
+   																</h4>
+   															</div>
+	   														<div class="col-md-6 col-sm-6">
+	   															<img src="http://2017.igem.org/wiki/images/e/e0/Mingdaojay1020-3.jpeg" width="90%" align="left">
+	   														</div>
+															<div class="col-md-12 col-sm-12">
+ 															<h4 style="margin-top: 3rem">
+ 	   															<b>We: </b>So, is it true to say that the limitations keep GMO products from prevailing in Taiwan?
+ 	   														</h4>
+ 	   														<h4>
+ 	   															<b>FDA:</b> This is considered a topic of personal view. The governing departments stand on neither side in a controversial topic. But, we’ll be sure that customers have the right to know whether it is a GMO product.
+ 	   														</h4>
+															<h4 style="margin-top: 3rem">
+																<b>We: </b>So, what kind of data is required?
+															</h4>
+															<h4>
+																<b>FDA:</b> First, the effect of the product must be testified. Also, we will ask for the descriptive data about the bacterial strain, how you grow and preserve them, how you rebuilt its DNA, and whether any toxic or allergic reaction is found.
+															</h4>
+ 														   </div>
+														   <div class="col-md-6 col-sm-6">
+															   <img src="http://2017.igem.org/wiki/images/3/33/Mingdaojay1020-43.jpeg" width="100%" align="right">
+														   </div>
+														   <div class="col-md-6 col-sm-6">
+															   <h4 >
+																   	<b>We: </b> Is it an offence if we just make an allegation that our product is of health-giving properties?
+																</h4>
+																<h4>
+ 															   		<b>FDA:</b> If your product is added to medicines, you may violate the Pharmaceutical Affairs Act. If you claim that your product is of medical effects, you could end up in prison.
+															   </h4>
+															   <h4 >
+																   	<b>We: </b> If we get the permission of commercializing health supplements, will there be an expiration date?
+																</h4>
+																<h4>
+ 															   		<b>FDA:</b> 5 years. If after 5 years, a new regulation is enacted, and the standard is adjusted, we will examine the product with the new standard again.
+															   </h4>
+															   <h4 >
+																   	<b>We: </b> Is it necessary that we conduct human clinical trial?
+																</h4>
+																<h4>
+ 															   		<b>FDA:</b>  Either in vitro or in vivo trial is acceptable. But, if your product is related to hypertension, than it will be better if you can conduct human clinical trial. Moreover, items should be labeled if it has been done with animal studies. 
+															   </h4>
+
+
+														   </div>
+															</div>
+
+										  			  </div>
+										  			</div>
+										  		</div>
+										  	</div>
+										  <!-- Discussion Section END -->
+									  </div>
+									</div>
+									</div>
+						</section>
+						<div class="bgimg-3 w3-display-container w3-opacity-min">
+						 <div class="w3-display-middle">
+							<div class="inner">
+								<header class="align-center">
+									<p class="special w3-center" style="color: white">We consider the public's voice </p>
+									<h2 style="color: white">Public Survey</h>
+								</header>
+							</div>
+						</div>
+						</div>
+						<div class="row">
+							<div class="col-md-10 col-sm-10" style="display: block; margin: auto">
+								   <div id="survey-md"></div>
+								<div class="card mb-3" style="border: #004480 solid 1px; margin-top: 3rem">
+								  <div class="card-header text-center" style="background-color: #004480"><strong style="color: #fff; letter-spacing:0.2rem; font-size:1.5rem">&nbsp;</strong></div>
+								  <div class="card-body">
+									<div class="row">
+										<div class="col-md-12 col-sm-12">
+												<img src="http://2017.igem.org/wiki/images/8/85/Mingdaojay0930-1.jpeg" width="85%" height="auto" style="display: block; margin: auto; margin-top: 2rem">
+										</div>
+										<div class="col-md-12 col-sm-12">
+											<h4>	In order to understand our project affects the world and the world affects our project design, we did a series of surveys with School’s students, teachers and staffs, as well as team members’ friends and parents, and also for the public in using online Google forms. The graphs are the results sorted into different genders and ages. In this survey, we wanted to see what people of different ages and of different genders prefer their sugar intake to be, what people will do to burn off the calories after drinking a bottle of Coke, and whether people like the idea of our genetically engineered product eating away the excess sugar. And also, we want to know how much do the public welcome our design and the engineered product.</h4>
+										</div>
+										<div class="col-md-12 col-sm-12">
+												<img src="http://2017.igem.org/wiki/images/4/41/Mingdaojay0930-3.jpeg" width="85%" height="auto" style="display: block; margin: auto; margin-top: 2rem">
+												<img src="http://2017.igem.org/wiki/images/e/ee/Mingdaojay0930-4-1.jpeg" width="90%" height="auto" style="display: block; margin: auto; margin-top: 2rem">
+												<img src="http://2017.igem.org/wiki/images/4/4a/Mingdaojay0930-5.jpeg" width="85%" height="auto" style="display: block; margin: auto; margin-top: 2rem">
+												<img src="http://2017.igem.org/wiki/images/1/13/Mingdaojay0930-6.jpeg" width="90%" height="auto" style="display: block; margin: auto; margin-top: 2rem">
+												<img src="http://2017.igem.org/wiki/images/0/0e/Mingdaojay0930-7.jpeg" width="90%" height="auto" style="display: block; margin: auto; margin-top: 2rem">
+												<img src="http://2017.igem.org/wiki/images/f/ff/Mingdaojay0930-8.jpeg" width="90%" height="auto" style="display: block; margin: auto; margin-top: 2rem">
+												<hr>
+												<img src="http://2017.igem.org/wiki/images/2/21/Mingdaojay0930-9.jpeg" width="90%" height="auto" style="display: block; margin: auto; margin-top: 2rem">
+												<hr>
+												<img src="http://2017.igem.org/wiki/images/4/4e/Mingdaojay0930-10.jpeg" width="90%" height="auto" style="display: block; margin: auto; margin-top: 2rem">
+
+										</div>
+										<!-- REFERNCE -->
+										<div class="col-md-12 col-sm-12">
+											<div style="margin-left: 20px; margin-top: 3rem">
+												<!-- Box -->
+												<div class="box" style="background-color: rgba(255, 255, 255, 0); margin-right: 50px">
+													<ul class="list-group">
+													  <li class="list-group-item w3-wide" style="text-align: center"><strong>- Conclusion -</strong></li>
+													  <li class="list-group-item w3-padding-32">
+														  <h4>	We can see the survey shows that doesn’t intake of carbonated beverages of the female population is twice the male population, and, as people age, their preference of sugar is reduced. In this survey we can see that women take their health more seriously than men, and that men need more energy for their hard labor. Children are usually hyperactive and need a lot of energy, so we can see that children and younger people under the age of 18 have the highest consumption of sugar, but the older the person, the less energy is needed, so their consumption of sugar is lower than children. </h4>
+														  <h4>In the second part, we asked them what exercise would they do to burn off all the calories from a 500mL Cola. Most of them chose to jog for 30 minutes or ride a bike for an hour. After some research, we found out people would have to walk for two days without sleep to burn all those calories. However, due to the fact that we only have 24 hours in a day, and that we are sleeping ¼ of the 24 hours, we don’t have much extra time to exercise and burn off the calories. We concluded the survey by asking them that if they could have a probiotic that absorbs the sugar taken in, so they wouldn’t have to worry about their health, would they take it? 76 percent of people said that they would take the probiotic. We can see that people would prefer to use our solution than to take the time to exercise.
+														  </h4>
+														  <h4>	According to research, in 2015, about 7 in 10 adults suffer the problem of being overweight or even being obese, and it is predicted that this problem will become apparent in more adults in the near future. One of the major factors that leads to obesity is “sugar”, which is found in beverages, desserts, and almost any kind of food. Thus, it is quite difficult not to absorb an excessive amount of sugar in our daily lives. In the hopes of preventing our bodies from absorbing too much glucose, our team aims to engineer bacteria that absorbs glucose more efficiently. Our team constructed active glucose transporters on the membrane of E.coli, enabling the glucose uptake to become faster than intestine cells. On the other hand, our team has designed a suicide circuit ensuring the bacteria won’t absorb all the sugar so that the body can get an adequate amount of sugar.</h4>
+													  </li>
+													</ul>
+												</div>
+											</div>
+											<!-- REFERNCE END -->
+										</div>
+									</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<section id="integration-md" class="wrapper style3" style="margin-bottom:3rem">
+							<div class="inner">
+								<header class="align-center">
+									<p class="w3-center">Science that benefits reality</p>
+									<h2>Cross Domain Integration</h2>
+								</header>
+							</div>
+						</section>
+						<div class="card mb-3" style="border: #004480 solid 1px; width: 90%; display: block; margin: auto">
+						  <div class="card-header text-center" style="background-color: #004480">
+							  <strong style="color: #fff; letter-spacing:0.2rem; font-size:1.5rem">Forum - <i>The Mingdao Voice</i></strong>
+						  </div>
+						  <div class="card-body">
+							  <nav class="nav nav-tabs" id="myTab" role="tablist">
+							    <a class="nav-item nav-link active" id="nav-introvoice-tab" data-toggle="tab" href="#nav-introvoice" role="tab" aria-controls="nav-introvoice" aria-selected="true" style="text-decoration: none; color: blue; font-size: 18px">Introduction</a>
+							    <a class="nav-item nav-link" id="nav-discussvoice-tab" data-toggle="tab" href="#nav-discussvoice" role="tab" aria-controls="nav-discussvoice" aria-selected="false" style="text-decoration: none; color: blue; font-size: 18px">Discussion</a>
+							    <a class="nav-item nav-link" id="nav-reflectvoice-tab" data-toggle="tab" href="#nav-reflectvoice" role="tab" aria-controls="nav-reflectvoice" aria-selected="false" style="text-decoration: none; color: blue; font-size: 18px">Reflection</a>
+							  </nav>
+
+  							<div class="tab-content" id="nav-tabContent">
+  							  	<div class="tab-pane fade show active" id="nav-introvoice" role="tabpanel" aria-labelledby="nav-introvoice-tab">
+									<div class="row">
+										<div class="col-md-6 col-sm-6">
+											<img src="http://2017.igem.org/wiki/images/0/01/Mingdaojay1030-3.jpeg" width="90%"style="float:right">
+										</div>
+										<div class="col-md-6 col-sm-6" style="padding-top: 8rem">
+											<h4><b>Mingdao voice </b></h4>
+											<h4><b>Time : 9/26</b></h4>
+											<h4><b>Location : Mingdao</b></h4>
+											<h4><b>Objective : The Mingdao Voice</b></h4>
+											<h4><b>Contemporary Salon</b></h4>
+										</div>
+										<div class="col-md-12 col-sm-12">
+												<h4>To understand what doubt people will react when seeing our product and to increase the extent of public acceptance, we invited The Mingdao Voice, an outstanding club for thinking and discussing. We introduced our project to them during the club time in the hope of getting inspiring feedback. </h4>
+										</div>
+										<div class="col-md-2 col-sm-2">
+											&nbsp;
+										</div>
+										<div class="col-md-8 col-sm-8">
+											<img src="http://2017.igem.org/wiki/images/f/fd/Mingdaochuck1020-24.jpeg" width="100%">
+										</div>
+										<div class="col-md-2 col-sm-2">
+											&nbsp;
+										</div>
+
+										<div class="col-md-12 col-sm-12">
+											<h4>The Mingdao Voice is a club organized by students themselves in Mingdao High School. Students there follow social issue with interest and hold lots of lectures, sharing thoughts with audiences. Quite unique this club is. </h4> 
+										</div>
+										<div class="col-md-12 col-sm-12">
+											<h4>This is the first time Mingdao iGEM jumps out of the field of science and collaborate with the elite in humanities and social science. The way they think against the holistic issue and the speech hitting the nail on the head made us realize more about the further influence our product will bring to the world if released. </h4>
+										</div>
+
+									</div>
+								</div>
+  						  		<div class="tab-pane fade" id="nav-discussvoice" role="tabpanel" aria-labelledby="nav-discussvoice-tab">
+									<div class="row">
+									<div class="col-md-6 col-sm-6">
+										<h4> The followings are what we discussed with The Mingdao Voice :</h4>
+										<h4>Research has indicated that there will be a subtle decline in weight by reducing sugar intake in daily diet. The study lasted for about 8 months. The average decline on weight is about 1.7 bounds. Participants who consumed more sugar gain not much weight than those didn’t. </h4>
+										<h4>“There is also evidence that the longer the study, the more striking the effect.” said researcher Jim Mann, DM, PhD, professor of human nutrition and medicine at the University of Otago. </h4>
+										<h4>But, there’s no correspondence between sugar intake and changes on weight found on children. That may be owing to the children’s ignorance on the advice for diet we gave. Nonetheless, if we just focus on their consumption of sugary beverages, there’s some relation be found. Their habit of having sugary beverages significantly influences their weight, leading to obesity. The research discovered that the obesity rate of children who took in the most sugary beverage exceeded those took in the fewest by 50%. </h4>   
+									</div>
+									<div class="col-md-6 col-sm-6">
+											<img src="http://2017.igem.org/wiki/images/6/6a/Mingdaochuck1020-28.jpeg" width="80%" height="auto" style="display: block; margin: auto;">
+									</div>
+									<div class="col-md-12 col-sm-12">
+										<h4>However, in Taiwan, the prevailing of handmade drinks has made it easy for us to find shops selling them everywhere. It is relatively hard for people to resist the temptation of sugar. If we are to solve the problem of obesity, the most direct approach is to avoid our intestine from absorbing sugar. With such aspiration, 2017 Mingdao IGEM team has designed a kind of bacteria which boost a higher efficiency of sugar absorbing. It can survive in the intestine and absorb excessive sugar before the villus have done it. This is how we take biological means to tackle the detriments sugar may cause. The bacteria is designed with a suicide system, which it will be brought to death if the concentration of sugar is lower than a standard amount we regulate. It will be discharged from our body with excretes. </h4>
+										<h4>   If the product is successfully commercialized, do you agree with the way we solve the problem? Or is there an alternative? And, in your opinion, what impact may be brought to the world?</h4>
+										<h4>
+											The bellows are viewpoints from the students in The Mingdao Voice. 
+										</h4>
+									</div>
+									<div class="col-md-9 col-sm-9" style="display: block; margin: auto">
+											<img src="http://2017.igem.org/wiki/images/4/4e/Mingdaochuck1020-26.jpeg" width="100%">
+											<h3><b>Jenny Yeh :</b></h3>
+											<h4>I don't approve of the way to solve the problem of sugar. I think it cures the symptoms, not the disease. Although it seems that this way can fast deal with the threat which sugar poses to health, the problem of high sugar foods flooding is still unsolved.Perhaps this can receive the result in a short time ,but this can't be a longterm solution. Those who use this product may think it's okay to increase the intake of sugar, so they won't control their own desire or resist the temptation of sugar. Instead, the uncontrolled intake of sugar attributes to the serious sugar flooding. As for the influence on health condition, I think users may reduce the consumption of nutrition and ignore the balanced diet because of the more intake of sugar foods. What's more, the harmful substances in high sugar foods are not only sugar but also much chemical addition or a large amount of oil. As a result, the product can merely solve the problem of sugar content, but it still makes users ingest even more harmful substances by changing their attitude. </h4>
+
+											<h3><b>Leona Sun :</b></h3>
+	 
+										<h4>I do not agree with it. The above referred preventing sugar as the clearest solution to avoiding obesity, so there are two ways to reach this goal--not to eat sugar or utilizing the transgenic bacteria. Why do we have to spend so much time on creating special bacteria when we already have a direct and easy way, which is to consume less sugar? Isn't this holding a candle to the sun and what we got eventually is the same outcome as the former?
+	 									</h4>
+										   <h4> Next, if we no longer suffer from obesity due to consuming sugar, then everyone will consume sugar unrestrained. Think about this, we may be able to eat a lot of sugar without gaining weight, but what is the benefit for human beings on general? Isn't embracing our own desires without any negative effects going to facilitate more desires?  We all know that smoking may lead to lung cancer, and drinking too much can lead to Gastric Ulcer. So does it mean that we are going to fulfill all our desires blindly by creating more transgenic bacteria? </h4>
+	 
+	 									   <h4>  Furthermore, the ones who are now wealthy enough to eat sugar will as a matter of course consume huge amount of sugar without worry after the commercialization of this bacteria. It indeed will boost the dessert and food industry, becoming a great benefit for countries producing sugar. However, we should also be aware of the labors that might be exploited under the progression of sugar industry. I mean stories of child labors at Ivory Coast being exploited aren't uncommon. Plus that erecting laws and restrainments to stop these sad stories from happening takes long time. It will inevitably cause great impact on these labors.</h4>
+	     
+	 									 <h4>  To conclude, I reckon that the transgenic bacteria may be useful on medical perspective, but it may not act the same way when it comes to the cultural side, suffice to say that there are a few nomadic people who view being plump as beauty. I would like to share a story with you  related to what I've just said: When expertises from Taiwan come to aid of several african countries in order to improve their  agricultural condition, it doesn't really help much, because most meetings are for men only owing to their tradition, but the ones that do agricultural work are actually women. This prove that what we think are great for the world may not be that great in reality.</h4>
+									</div>
+
+								</div>
+								</div>
+  						  		<div class="tab-pane fade" id="nav-reflectvoice" role="tabpanel" aria-labelledby="nav-reflectvoice-tab">
+									<div class="row">
+										<div class="col-md-2">
+											&nbsp;
+										</div>
+										<div class="col-md-8">
+											<img src="http://2017.igem.org/wiki/images/b/bd/Mingdaochuck1020-27.jpeg" width="100%">
+										</div>
+										<div class="col-md-2">
+											&nbsp;
+										</div>
+										<div class="col-md-12 col-sm-12" style="margin-left: 3rem">
+											<h4><b>After reading and analyzing the two replies, we listed three questions below :</b></h4>
+ 
+											<h4>1. Why not just ingest sugar directly instead of complexing the solution by creating Genetically Modified bacteria? </h4>
+ 
+											<h4>2. What if people won’t absorb any sugar they eat? Does that mean we can have sugar as much as we want? </h4>
+ 
+											<h4>3. if the quantity of consuming sugar is uncontrollably rising, won’t it cause any sugarcane-farmer exploitations?</h4>
+										</div>
+									</div>
+								</div>
+
+						  </div>
+						</div>
+					</div>
+			<!--four-->
+			<section id="four">
+				<div class="bgimg-3 w3-display-container w3-opacity-min">
+				 <div class="w3-display-middle">
+					<div class="inner">
+						<header class="align-center">
+							<p class="special w3-center" style="color: white">Not limited to laboratory, we make business approach</p>
+							<h2 style="color: white">Enterprise Outreach</h>
+						</header>
+					</div>
+				</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-sm-12" style="display:block;margin: auto">
+						<div class="card mb-3" style="border: #004480 solid 1px; margin-top: 3rem">
+		   					<div id="enterprise-md"></div>
+						  <div class="card-header text-center" style="background-color: #004480"><strong style="color: #fff; letter-spacing:0.2rem; font-size:1.5rem">Visit to <i>Chung Mei Pharmaceutical Co., Ltd.</i></strong></div>
+						  <div class="card-body">
+							<h3 class="card-title"><strong style="letter-spacing: 0.2rem">Introduction</strong></h3>
+							<div class="row">
+								<div class="col-md-7 col-sm-7">
+									<h4>Chung Mei Pharmaceutical Co., Ltd. has a long history in medical production and marketing. Established in 1926, Chung Mei provides several medical drugs for patients or sub-healthy people. Ｍore specifically, its services includes a wide range of over-the-counter medicines and consumer healthcare products.</h4>
+								</div>
+								<div class="col-md-5 col-sm-5">
+									<img src="http://2017.igem.org/wiki/images/8/8d/Mingdaochuck1024-1.jpeg" width="80%">
+								</div>
+							</div>
+							<h3 class="card-title"><strong style="letter-spacing: 0.2rem">Motivation</strong></h3>
+							<div class="row">
+								<div class="col-md-12 col-sm-12">
+									<h4> During our last time’s meet-up with Doctor Zhu in (FIRDI), we discussed our design of modeling with him . However, the main research in FIRDI is about upstream technology and he is not proficient in the design of products, so he suggested that we may get what we need from medicine producers. With contacts and preparations, we successfully paid a visit to the CEO Lin and the manager in Chung Mei.</h4>
+								</div>
+							</div>
+							<h3 class="card-title"><strong style="letter-spacing: 0.2rem">Highlights</strong></h3>
+							<div class="row">
+
+								<div class="col-md-6 col-sm-6" style="padding-left: 3rem">
+									<ol>
+										<li>We should choose the lactobacillus which is low colonization rate, thus we do not need to add suicide circuit to our lactobacillus. </li>
+										<li> It is important that choosing the good food additions for lactobacillus.</li>
+										<li>We need to make sure that our product is acid proof but will melt in our  intestine.</li>
+									</ol>
+								</div>
+								<div class="col-md-6 col-sm-6">
+									<img src="http://2017.igem.org/wiki/images/5/51/Mingdaochuck1024-2.jpeg" width="85%">
+								</div>
+								<div class="col-md-10 col-sm-10" style="display: block; margin: auto">
+									<h3 class="btn btn-lg btn-block w3-wide" style="background-color: #004480; color: white; margin-top: 3rem; margin-bottom: 3rem">Conclusion</h3>
+								</div>
+								<div class="col-md-6 col-sm-6">
+									After having discussion with the CHUNG  MEI’s CEO Mr. Lin, we thought that is too hard to model our product. Therefore, we will not temporally take modeling into consideration. Furthermore, they also gave us some useful ideas. we can choose the low colonization rate lactobacillus and every kind of bacterium likes different parts of intestine, so we have to focus on whether our lactobacillus grow up at the front part of the intestine. To sum up, we can sure that our lactobacillus can absorb the maximum amount of sugar.
+								</div>
+								<div class="col-md-6 col-sm-6">
+									<img src="http://2017.igem.org/wiki/images/e/e9/Mingdaochuck1024-3.jpeg" width="85%">
+								</div>
+							</div>
+							</div>
+						  </div>
+						  <!-- Marketing Analysis -->
+						  <div class="card mb-3" style="border: #005a98 solid 1px; margin-top: 3rem">
+							  <div id="market-md"></div>
+							<div class="card-header text-center" style="background-color: #005a98"><strong style="color: #fff; letter-spacing:0.2rem; font-size:1.5rem">Market Analysis</i></strong></div>
+							<div class="card-body">
+							  <h3 class="card-title"><strong style="letter-spacing: 0.2rem">&nbsp;</strong></h3>
+							  <div class="row">
+								  <div class="col-md-12 col-sm-12">
+									  <h4>Since there are also many products used to lose weight, we search it on the internet and use the table to compare the differences between the medicine(Only two kinds of medicine, orlistat and lorcaserin, were allowed by government to use to lose weight in Taiwan now)and goods(Here, we choose the chitin and liposuction).</h4>
+								  </div>
+
+							  </div>
+							  <div class="row">
+								  <div class="col-md-10 col-sm-10" style="display: block; margin: auto">
+									  <img src="http://2017.igem.org/wiki/images/0/01/Mingdaochuck1027-1.jpeg" width="100%">
+								  </div>
+
+								  <div class="col-md-12 col-sm-12">
+									  <h4>After looking for the above-mentioned table, we find that our product has many advantage. Not only does our project has no side effect, but it can also be used for everyone. However, all the products have to pass the examination of legalizing, if they want to hit the market. That's why we visited FDA.</h4>
+								  </div>
+
+							  </div>
+
+
+							  </div>
+							</div>
+						  <!-- Marketing Analysis END -->
+						</div>
+					</div>
+						 <div id="conclusion-md"></div>
+				<div class="bgimg-3 w3-display-container w3-opacity-min">
+ 				 <div class="w3-display-middle">
+    				<div class="inner">
+    					<header class="align-center">
+							<h2 style="color: white">Conclusion</h>
+						</header>
+    				</div>
+  				</div>
+				</div>
+				<div style="margin-left: 20px; margin-top: 20px">
+				<br/><br/>
+			<!-- Box -->
+				<div class="row">
+					<div class="col-md-5 col-sm-5">
+						<img src="http://2017.igem.org/wiki/images/d/df/Mingdaochuck1020-23.jpeg" width="90%">
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<br><br>
+						<h4>
+						It took us quite a long time to think about how to respond to the questions above, since last time we had a meetup with NCKU_Tainan, one of their team members had already ask us a pretty tough question similar like these problems that we barely couldn’t answer, “aren’t you guys supporting the world to consume more sugar?” At first, we kind of think that they are right. After all, there’s no denying that these  questions just hit the weak point of our project and present the realistic society problems our product might bring, but after a fierce argument between our teammates, we repositioned our project and have the conclusion in addition below :
+						</h4>
+						<br>
+ 						<h4>
+						Indeed. It is actually the way that gets straight to the point the most. However, it’s just like the reason why you prefer Mosquito-repellent lotion to wearing long sleeves and trousers when hanging out with friends in a hot day. You don’t like to sweat and become smelly, so you make the choice. Let’s have another example. If you have motion sickness, the most simple and direct way to solve it is get off the car, but that’s too inconvenient. As a result, you take motion sickness pills instead. The two examples convey the same meaning. Sugar is not merely an essential nutrient in our normal life, but it is also added into snacks、afternoon tea… and so on that people enjoy for relaxation. That is, avoiding eating sugar may probably not be very efficient to reach the goal of losing weight. At this moment, our bacteria come into use. 
+						</h4>
+						<br>
+						<h4>
+						<b>
+						But here comes a question. Eating sugar without absorbing it? People will definitely run into sugar’s hug rather than resist the desire.
+						</b> 
+						</h4>
+					</div>
+					<div class="col-md-10 col-sm-10" style="display: block; margin: auto">
+						<h4> 
+							Yes. Thus, instead of the medicines put on the shelf that everyone can purchase, our product will be prescription medicines for assistant purpose. Whether patients can take it to help control their weight or blood sugar depends on doctors’ judgment. The customer base we set as target is mostly those who need to lose weight. By doing so, our product won’t be the permit to the heaven of sugar. 
+ 						</h4>
+						<h4>
+							So we come to the third question. In fact, this situation won’t happen no matter whether our product is prescription medicines for assistant purpose. That is because the sugar nowadays we use is mostly Corn syrup. The growth of corn is all mechanized and at area of large scale of land, which is as they are like apples and oranges when it comes to sucrose farmers exploitation. That’s why most news about farmer exploitation focuses on cocoa beans or coffee beans instead of sucrose.
+ 						</h4>
+						<h4>
+							There are always two sides to one coin. Everything has its own defect no matter how perfect it is. Facing the fault, what we should do is manage to solve it in preference to leaving it to the unsure factors in the future. Thank The Mingdao Voice for helping us passionately. It is this bilateral communication between science and humanities and social science that makes our project more specific and more mature to be closer to come true.
+						</h4>
+					</div>
+				</div>
+
+
+			</section>
+	</div>
+    <!-- BOOTSTRAP -->
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+               <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+               <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+   <!-- BOOTSTRAP -->
+	</body>
+</html>
+
+{{Team:Mingdao}}
